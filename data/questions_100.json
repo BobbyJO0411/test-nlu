@@ -1,0 +1,2302 @@
+[
+  {
+    "case_id": "Q001",
+    "category": "등록절차",
+    "query": "브랜드 이름을 신청했는데 접수 다음에는 뭘 하나요? 등록되기까지 흐름을 알고 싶어요.",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T001"
+    ],
+    "reference_answer": "상표 출원 후 방식 및 실체 심사를 거치며, 거절이유가 있으면 통지에 대한 의견서·보정서 제출 기회가 주어집니다. 거절이유가 해소되면 출원공고 및 이의신청 절차 등을 거쳐 등록 여부가 결정됩니다. 등록결정과 권리의 설정등록은 구분되므로 등록료 납부 등 후속 절차도 확인해야 합니다. 사건별 처리기간은 진행 상태에 따라 달라 확정할 수 없습니다.",
+    "source_ids": [
+      "S001"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q002",
+    "category": "등록절차",
+    "query": "처음 상표를 내보려는 온라인 판매자입니다. 심사, 공고, 등록이 각각 다른 단계인가요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T001"
+    ],
+    "reference_answer": "상표 출원 후 방식 및 실체 심사를 거치며, 거절이유가 있으면 통지에 대한 의견서·보정서 제출 기회가 주어집니다. 거절이유가 해소되면 출원공고 및 이의신청 절차 등을 거쳐 등록 여부가 결정됩니다. 등록결정과 권리의 설정등록은 구분되므로 등록료 납부 등 후속 절차도 확인해야 합니다. 사건별 처리기간은 진행 상태에 따라 달라 확정할 수 없습니다.",
+    "source_ids": [
+      "S001"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q003",
+    "category": "등록절차",
+    "query": "상표 출원만 하면 바로 제 권리가 생기는 건가요, 이후 절차도 있나요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T001"
+    ],
+    "reference_answer": "상표 출원 후 방식 및 실체 심사를 거치며, 거절이유가 있으면 통지에 대한 의견서·보정서 제출 기회가 주어집니다. 거절이유가 해소되면 출원공고 및 이의신청 절차 등을 거쳐 등록 여부가 결정됩니다. 등록결정과 권리의 설정등록은 구분되므로 등록료 납부 등 후속 절차도 확인해야 합니다. 사건별 처리기간은 진행 상태에 따라 달라 확정할 수 없습니다.",
+    "source_ids": [
+      "S001"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q004",
+    "category": "등록절차",
+    "query": "가게 상표 등록 절차랑 소요 기간을 같이 알고 싶어요. 몇 달이라고 확정할 수 있나요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T001"
+    ],
+    "reference_answer": "상표 출원 후 방식 및 실체 심사를 거치며, 거절이유가 있으면 통지에 대한 의견서·보정서 제출 기회가 주어집니다. 거절이유가 해소되면 출원공고 및 이의신청 절차 등을 거쳐 등록 여부가 결정됩니다. 등록결정과 권리의 설정등록은 구분되므로 등록료 납부 등 후속 절차도 확인해야 합니다. 사건별 처리기간은 진행 상태에 따라 달라 확정할 수 없습니다.",
+    "source_ids": [
+      "S001"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q005",
+    "category": "사용의사",
+    "query": "사업자등록 전인데 내년에 쓸 브랜드 이름을 먼저 신청하고 싶어요. 지금 사용 중이어야 하나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T002"
+    ],
+    "reference_answer": "국내에서 상표를 사용하거나 사용할 의사가 있는 자는 출원할 수 있습니다. 현재 사용하지 않는다는 이유만으로 출원이 불가능한 것은 아닙니다. 다만 지정상품에 사용할 의사가 합리적으로 의심되는 경우 사용 사실 또는 사용 준비를 설명하는 자료를 요구받을 수 있으므로 사업계획과 지정상품의 연관성을 확인해야 합니다.",
+    "source_ids": [
+      "S002"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q006",
+    "category": "사용의사",
+    "query": "제품은 아직 출시 전입니다. 상표를 미리 확보하는 신청도 가능한가요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T002"
+    ],
+    "reference_answer": "국내에서 상표를 사용하거나 사용할 의사가 있는 자는 출원할 수 있습니다. 현재 사용하지 않는다는 이유만으로 출원이 불가능한 것은 아닙니다. 다만 지정상품에 사용할 의사가 합리적으로 의심되는 경우 사용 사실 또는 사용 준비를 설명하는 자료를 요구받을 수 있으므로 사업계획과 지정상품의 연관성을 확인해야 합니다.",
+    "source_ids": [
+      "S002"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q007",
+    "category": "사용의사",
+    "query": "실제로 팔지는 않지만 판매 준비 중인 상품 이름도 출원할 수 있나요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T002"
+    ],
+    "reference_answer": "국내에서 상표를 사용하거나 사용할 의사가 있는 자는 출원할 수 있습니다. 현재 사용하지 않는다는 이유만으로 출원이 불가능한 것은 아닙니다. 다만 지정상품에 사용할 의사가 합리적으로 의심되는 경우 사용 사실 또는 사용 준비를 설명하는 자료를 요구받을 수 있으므로 사업계획과 지정상품의 연관성을 확인해야 합니다.",
+    "source_ids": [
+      "S002"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q008",
+    "category": "사용의사",
+    "query": "혼자 준비하는 창업자예요. 관련 없는 여러 업종까지 지정했더니 사용 의사를 설명하라는데 왜죠?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T002"
+    ],
+    "reference_answer": "국내에서 상표를 사용하거나 사용할 의사가 있는 자는 출원할 수 있습니다. 현재 사용하지 않는다는 이유만으로 출원이 불가능한 것은 아닙니다. 다만 지정상품에 사용할 의사가 합리적으로 의심되는 경우 사용 사실 또는 사용 준비를 설명하는 자료를 요구받을 수 있으므로 사업계획과 지정상품의 연관성을 확인해야 합니다.",
+    "source_ids": [
+      "S002"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q009",
+    "category": "지정상품",
+    "query": "커피 원두도 팔고 카페도 운영해요. 출원서에 그냥 커피 사업이라고 쓰면 되나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T003"
+    ],
+    "reference_answer": "상표가 사용될 상품·서비스를 명확하고 구체적으로 지정해야 합니다. 상품명과 류구분은 상품 고시 및 유사상품 심사기준을 확인해 선택합니다. 사업 범위를 뜻하는 모호한 표현만으로는 상품 범위가 불명확할 수 있습니다. 같은 류에 속한다고 모두 유사한 상품인 것은 아니며, 실제 제공하는 상품·서비스와 사용 계획을 기준으로 검토해야 합니다.",
+    "source_ids": [
+      "S003"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q010",
+    "category": "지정상품",
+    "query": "앱 서비스 브랜드를 신청하려는데 지정상품란에 IT 전반이라고 적어도 괜찮을까요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T003"
+    ],
+    "reference_answer": "상표가 사용될 상품·서비스를 명확하고 구체적으로 지정해야 합니다. 상품명과 류구분은 상품 고시 및 유사상품 심사기준을 확인해 선택합니다. 사업 범위를 뜻하는 모호한 표현만으로는 상품 범위가 불명확할 수 있습니다. 같은 류에 속한다고 모두 유사한 상품인 것은 아니며, 실제 제공하는 상품·서비스와 사용 계획을 기준으로 검토해야 합니다.",
+    "source_ids": [
+      "S003"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q011",
+    "category": "지정상품",
+    "query": "상품류 숫자만 고르면 되나요? 제가 파는 품목 이름도 따로 적어야 해요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T003"
+    ],
+    "reference_answer": "상표가 사용될 상품·서비스를 명확하고 구체적으로 지정해야 합니다. 상품명과 류구분은 상품 고시 및 유사상품 심사기준을 확인해 선택합니다. 사업 범위를 뜻하는 모호한 표현만으로는 상품 범위가 불명확할 수 있습니다. 같은 류에 속한다고 모두 유사한 상품인 것은 아니며, 실제 제공하는 상품·서비스와 사용 계획을 기준으로 검토해야 합니다.",
+    "source_ids": [
+      "S003"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q012",
+    "category": "지정상품",
+    "query": "의류 판매랑 쇼핑몰 운영을 모두 보호하고 싶어요. 실제 사업에 맞는 지정상품을 어떻게 골라요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T003"
+    ],
+    "reference_answer": "상표가 사용될 상품·서비스를 명확하고 구체적으로 지정해야 합니다. 상품명과 류구분은 상품 고시 및 유사상품 심사기준을 확인해 선택합니다. 사업 범위를 뜻하는 모호한 표현만으로는 상품 범위가 불명확할 수 있습니다. 같은 류에 속한다고 모두 유사한 상품인 것은 아니며, 실제 제공하는 상품·서비스와 사용 계획을 기준으로 검토해야 합니다.",
+    "source_ids": [
+      "S003"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q013",
+    "category": "1상표1출원",
+    "query": "로고 두 개를 한 신청서에 같이 넣어서 비용을 아낄 수 있나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T004"
+    ],
+    "reference_answer": "원칙적으로 하나의 상표마다 하나의 출원을 해야 합니다. 일반상표 출원에 서로 다른 두 상표 견본을 함께 넣는 것은 1상표 1출원 원칙에 위반될 수 있습니다. 하나의 상표에 여러 상품류를 지정하는 문제와 여러 상표를 한 출원에 넣는 문제는 다릅니다. 서로 다른 상표는 별도 출원 여부를 검토해야 합니다.",
+    "source_ids": [
+      "S004"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q014",
+    "category": "1상표1출원",
+    "query": "브랜드명 A랑 전혀 다른 브랜드명 B를 한 번에 출원해도 되나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T004"
+    ],
+    "reference_answer": "원칙적으로 하나의 상표마다 하나의 출원을 해야 합니다. 일반상표 출원에 서로 다른 두 상표 견본을 함께 넣는 것은 1상표 1출원 원칙에 위반될 수 있습니다. 하나의 상표에 여러 상품류를 지정하는 문제와 여러 상표를 한 출원에 넣는 문제는 다릅니다. 서로 다른 상표는 별도 출원 여부를 검토해야 합니다.",
+    "source_ids": [
+      "S004"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q015",
+    "category": "1상표1출원",
+    "query": "한 상표에 화장품과 가방을 함께 지정하는 것과 로고 두 개를 넣는 건 같은 건가요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T004"
+    ],
+    "reference_answer": "원칙적으로 하나의 상표마다 하나의 출원을 해야 합니다. 일반상표 출원에 서로 다른 두 상표 견본을 함께 넣는 것은 1상표 1출원 원칙에 위반될 수 있습니다. 하나의 상표에 여러 상품류를 지정하는 문제와 여러 상표를 한 출원에 넣는 문제는 다릅니다. 서로 다른 상표는 별도 출원 여부를 검토해야 합니다.",
+    "source_ids": [
+      "S004"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q016",
+    "category": "1상표1출원",
+    "query": "한 출원서에 서로 다른 일반상표 견본 두 장을 냈더니 문제라고 해요. 원칙을 설명해 주세요.",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T004"
+    ],
+    "reference_answer": "원칙적으로 하나의 상표마다 하나의 출원을 해야 합니다. 일반상표 출원에 서로 다른 두 상표 견본을 함께 넣는 것은 1상표 1출원 원칙에 위반될 수 있습니다. 하나의 상표에 여러 상품류를 지정하는 문제와 여러 상표를 한 출원에 넣는 문제는 다릅니다. 서로 다른 상표는 별도 출원 여부를 검토해야 합니다.",
+    "source_ids": [
+      "S004"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q017",
+    "category": "출원보정",
+    "query": "신청하고 보니 브랜드 철자를 크게 바꾸고 싶어요. 보정으로 아무 이름이나 갈아끼울 수 있나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T005"
+    ],
+    "reference_answer": "출원 후 보정은 정해진 시기와 최초 출원의 요지를 변경하지 않는 범위에서만 가능합니다. 지정상품의 삭제나 범위 축소는 검토할 수 있지만 새로운 상품으로의 확장이나 식별력이 있는 주요 부분의 변경은 요지변경에 해당할 수 있습니다. 공고 전후와 통지·불복 절차에 따라 허용 기간이 다르므로 사건 단계와 보정 내용을 함께 확인해야 합니다.",
+    "source_ids": [
+      "S005"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q018",
+    "category": "출원보정",
+    "query": "상표 심사 중인데 지정상품 일부를 빼는 수정도 할 수 있나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T005"
+    ],
+    "reference_answer": "출원 후 보정은 정해진 시기와 최초 출원의 요지를 변경하지 않는 범위에서만 가능합니다. 지정상품의 삭제나 범위 축소는 검토할 수 있지만 새로운 상품으로의 확장이나 식별력이 있는 주요 부분의 변경은 요지변경에 해당할 수 있습니다. 공고 전후와 통지·불복 절차에 따라 허용 기간이 다르므로 사건 단계와 보정 내용을 함께 확인해야 합니다.",
+    "source_ids": [
+      "S005"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q019",
+    "category": "출원보정",
+    "query": "공고까지 된 상표를 수정하려고 합니다. 출원 직후와 같은 방식으로 고칠 수 있나요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T005"
+    ],
+    "reference_answer": "출원 후 보정은 정해진 시기와 최초 출원의 요지를 변경하지 않는 범위에서만 가능합니다. 지정상품의 삭제나 범위 축소는 검토할 수 있지만 새로운 상품으로의 확장이나 식별력이 있는 주요 부분의 변경은 요지변경에 해당할 수 있습니다. 공고 전후와 통지·불복 절차에 따라 허용 기간이 다르므로 사건 단계와 보정 내용을 함께 확인해야 합니다.",
+    "source_ids": [
+      "S005"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q020",
+    "category": "출원보정",
+    "query": "의류로 냈는데 갑자기 식품을 더 넣고 싶어요. 보정으로 범위를 넓혀도 되죠?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T005"
+    ],
+    "reference_answer": "출원 후 보정은 정해진 시기와 최초 출원의 요지를 변경하지 않는 범위에서만 가능합니다. 지정상품의 삭제나 범위 축소는 검토할 수 있지만 새로운 상품으로의 확장이나 식별력이 있는 주요 부분의 변경은 요지변경에 해당할 수 있습니다. 공고 전후와 통지·불복 절차에 따라 허용 기간이 다르므로 사건 단계와 보정 내용을 함께 확인해야 합니다.",
+    "source_ids": [
+      "S005"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q021",
+    "category": "지정상품추가",
+    "query": "옷에 등록한 브랜드를 이제 향수에도 쓰려는데 지정상품을 더 등록할 수 있나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T006"
+    ],
+    "reference_answer": "기존 출원·등록의 지정상품을 확장하려면 지정상품추가등록출원 등 적절한 절차를 검토해야 합니다. 단순 보정으로 최초 출원의 범위를 넓히는 것과는 구분됩니다. 추가 상품도 등록 요건 심사를 받으며, 추가등록된 상품의 상표권 존속기간 만료일은 원등록상표권의 만료일과 같습니다. 추가 상품만 별도의 새 10년이 시작되는 것은 아닙니다.",
+    "source_ids": [
+      "S006"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q022",
+    "category": "지정상품추가",
+    "query": "등록 후 사업을 넓혔어요. 기존 상표에 다른 품목을 추가하는 절차가 있나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T006"
+    ],
+    "reference_answer": "기존 출원·등록의 지정상품을 확장하려면 지정상품추가등록출원 등 적절한 절차를 검토해야 합니다. 단순 보정으로 최초 출원의 범위를 넓히는 것과는 구분됩니다. 추가 상품도 등록 요건 심사를 받으며, 추가등록된 상품의 상표권 존속기간 만료일은 원등록상표권의 만료일과 같습니다. 추가 상품만 별도의 새 10년이 시작되는 것은 아닙니다.",
+    "source_ids": [
+      "S006"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q023",
+    "category": "지정상품추가",
+    "query": "등록된 상표에 상품을 추가하면 추가한 품목은 그때부터 따로 10년 보호되나요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T006"
+    ],
+    "reference_answer": "기존 출원·등록의 지정상품을 확장하려면 지정상품추가등록출원 등 적절한 절차를 검토해야 합니다. 단순 보정으로 최초 출원의 범위를 넓히는 것과는 구분됩니다. 추가 상품도 등록 요건 심사를 받으며, 추가등록된 상품의 상표권 존속기간 만료일은 원등록상표권의 만료일과 같습니다. 추가 상품만 별도의 새 10년이 시작되는 것은 아닙니다.",
+    "source_ids": [
+      "S006"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q024",
+    "category": "지정상품추가",
+    "query": "출원 중인 브랜드에 새 상품을 포함시키고 싶어요. 단순 수정 말고 추가등록 신청이 가능한가요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T006"
+    ],
+    "reference_answer": "기존 출원·등록의 지정상품을 확장하려면 지정상품추가등록출원 등 적절한 절차를 검토해야 합니다. 단순 보정으로 최초 출원의 범위를 넓히는 것과는 구분됩니다. 추가 상품도 등록 요건 심사를 받으며, 추가등록된 상품의 상표권 존속기간 만료일은 원등록상표권의 만료일과 같습니다. 추가 상품만 별도의 새 10년이 시작되는 것은 아닙니다.",
+    "source_ids": [
+      "S006"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q025",
+    "category": "보통명칭",
+    "query": "커피음료 이름을 카페라테로만 등록해서 독점하고 싶어요. 상품 이름 그대로여도 되나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T007"
+    ],
+    "reference_answer": "해당 상품의 보통명칭을 보통으로 사용하는 방법으로 표시한 표장만으로 된 상표는 식별력이 없어 등록받기 어렵습니다. 실제 거래사회에서 그 상품을 지칭하는 명칭인지가 중요합니다. 보통명칭 자체는 오래 사용했다는 이유만으로 사용에 의한 식별력 예외를 적용할 수 없습니다. 별도의 식별력 있는 요소를 결합한 전체 표장은 따로 검토해야 합니다.",
+    "source_ids": [
+      "S007"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q026",
+    "category": "보통명칭",
+    "query": "빵 상품에 빵이라는 글자만 상표로 내면 다른 가게가 못 쓰게 할 수 있나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T007"
+    ],
+    "reference_answer": "해당 상품의 보통명칭을 보통으로 사용하는 방법으로 표시한 표장만으로 된 상표는 식별력이 없어 등록받기 어렵습니다. 실제 거래사회에서 그 상품을 지칭하는 명칭인지가 중요합니다. 보통명칭 자체는 오래 사용했다는 이유만으로 사용에 의한 식별력 예외를 적용할 수 없습니다. 별도의 식별력 있는 요소를 결합한 전체 표장은 따로 검토해야 합니다.",
+    "source_ids": [
+      "S007"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q027",
+    "category": "보통명칭",
+    "query": "상품의 일반 이름을 오래 사용했으니 보통명칭도 저만의 상표로 등록되겠죠?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T007"
+    ],
+    "reference_answer": "해당 상품의 보통명칭을 보통으로 사용하는 방법으로 표시한 표장만으로 된 상표는 식별력이 없어 등록받기 어렵습니다. 실제 거래사회에서 그 상품을 지칭하는 명칭인지가 중요합니다. 보통명칭 자체는 오래 사용했다는 이유만으로 사용에 의한 식별력 예외를 적용할 수 없습니다. 별도의 식별력 있는 요소를 결합한 전체 표장은 따로 검토해야 합니다.",
+    "source_ids": [
+      "S007"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q028",
+    "category": "보통명칭",
+    "query": "다들 품목 이름으로 쓰는 말을 보통 글씨로 표시했습니다. 이런 이름만으로 출처를 구별할 수 있나요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T007"
+    ],
+    "reference_answer": "해당 상품의 보통명칭을 보통으로 사용하는 방법으로 표시한 표장만으로 된 상표는 식별력이 없어 등록받기 어렵습니다. 실제 거래사회에서 그 상품을 지칭하는 명칭인지가 중요합니다. 보통명칭 자체는 오래 사용했다는 이유만으로 사용에 의한 식별력 예외를 적용할 수 없습니다. 별도의 식별력 있는 요소를 결합한 전체 표장은 따로 검토해야 합니다.",
+    "source_ids": [
+      "S007"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q029",
+    "category": "성질표시",
+    "query": "꿀 제품 이름을 천연꿀이라고만 정했는데 품질 설명이라서 거절될 수 있나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T008"
+    ],
+    "reference_answer": "상품의 산지·품질·원재료·효능·용도 등 성질을 보통으로 표시한 표장만으로 된 상표는 원칙적으로 식별력이 인정되기 어렵습니다. 판단은 지정상품과의 관계에서 이루어지며, 성질을 직접 설명하는 경우와 간접적으로 암시하는 경우는 구분합니다. 별도의 식별력 있는 구성이나 사용에 의한 식별력 인정 가능성은 구체적인 자료를 토대로 검토해야 합니다.",
+    "source_ids": [
+      "S008"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q030",
+    "category": "성질표시",
+    "query": "면 소재 옷에 순면이라고 크게 적은 이름을 등록하려고 해요. 원재료 표시도 상표가 되나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T008"
+    ],
+    "reference_answer": "상품의 산지·품질·원재료·효능·용도 등 성질을 보통으로 표시한 표장만으로 된 상표는 원칙적으로 식별력이 인정되기 어렵습니다. 판단은 지정상품과의 관계에서 이루어지며, 성질을 직접 설명하는 경우와 간접적으로 암시하는 경우는 구분합니다. 별도의 식별력 있는 구성이나 사용에 의한 식별력 인정 가능성은 구체적인 자료를 토대로 검토해야 합니다.",
+    "source_ids": [
+      "S008"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q031",
+    "category": "성질표시",
+    "query": "상품의 효능을 바로 설명하는 문구와 살짝 연상시키는 이름은 심사에서 다르게 보나요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T008"
+    ],
+    "reference_answer": "상품의 산지·품질·원재료·효능·용도 등 성질을 보통으로 표시한 표장만으로 된 상표는 원칙적으로 식별력이 인정되기 어렵습니다. 판단은 지정상품과의 관계에서 이루어지며, 성질을 직접 설명하는 경우와 간접적으로 암시하는 경우는 구분합니다. 별도의 식별력 있는 구성이나 사용에 의한 식별력 인정 가능성은 구체적인 자료를 토대로 검토해야 합니다.",
+    "source_ids": [
+      "S008"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q032",
+    "category": "성질표시",
+    "query": "저당 과자의 브랜드를 저당으로만 신청했어요. 제품 특징을 나타낸다는 이유로 등록이 어려울까요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T008"
+    ],
+    "reference_answer": "상품의 산지·품질·원재료·효능·용도 등 성질을 보통으로 표시한 표장만으로 된 상표는 원칙적으로 식별력이 인정되기 어렵습니다. 판단은 지정상품과의 관계에서 이루어지며, 성질을 직접 설명하는 경우와 간접적으로 암시하는 경우는 구분합니다. 별도의 식별력 있는 구성이나 사용에 의한 식별력 인정 가능성은 구체적인 자료를 토대로 검토해야 합니다.",
+    "source_ids": [
+      "S008"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q033",
+    "category": "지리적명칭",
+    "query": "제주라는 지역 이름만 브랜드로 등록해서 독점할 수 있나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T009"
+    ],
+    "reference_answer": "현저한 지리적 명칭이나 그 약어 또는 지도만으로 된 상표는 원칙적으로 등록이 제한됩니다. 널리 알려진 지역명을 특정인에게 독점시키지 않으려는 취지입니다. 다의적 의미나 구성 전체의 식별력, 사용에 의한 식별력 등은 별도로 검토할 사항이므로 지역명이 들어 있다는 이유만으로 모든 결합상표가 거절되는 것은 아닙니다.",
+    "source_ids": [
+      "S009"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q034",
+    "category": "지리적명칭",
+    "query": "널리 알려진 도시명 하나만 상표로 정했어요. 지명 때문에 문제가 될까요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T009"
+    ],
+    "reference_answer": "현저한 지리적 명칭이나 그 약어 또는 지도만으로 된 상표는 원칙적으로 등록이 제한됩니다. 널리 알려진 지역명을 특정인에게 독점시키지 않으려는 취지입니다. 다의적 의미나 구성 전체의 식별력, 사용에 의한 식별력 등은 별도로 검토할 사항이므로 지역명이 들어 있다는 이유만으로 모든 결합상표가 거절되는 것은 아닙니다.",
+    "source_ids": [
+      "S009"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q035",
+    "category": "지리적명칭",
+    "query": "지역명이 조금 들어가기만 해도 상표는 무조건 거절인가요? 다른 창작 단어도 붙였어요.",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T009"
+    ],
+    "reference_answer": "현저한 지리적 명칭이나 그 약어 또는 지도만으로 된 상표는 원칙적으로 등록이 제한됩니다. 널리 알려진 지역명을 특정인에게 독점시키지 않으려는 취지입니다. 다의적 의미나 구성 전체의 식별력, 사용에 의한 식별력 등은 별도로 검토할 사항이므로 지역명이 들어 있다는 이유만으로 모든 결합상표가 거절되는 것은 아닙니다.",
+    "source_ids": [
+      "S009"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q036",
+    "category": "지리적명칭",
+    "query": "유명 관광지 이름을 그대로 쓰고 싶습니다. 현저한 지리적 명칭이라는 거절 사유가 뭔가요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T009"
+    ],
+    "reference_answer": "현저한 지리적 명칭이나 그 약어 또는 지도만으로 된 상표는 원칙적으로 등록이 제한됩니다. 널리 알려진 지역명을 특정인에게 독점시키지 않으려는 취지입니다. 다의적 의미나 구성 전체의 식별력, 사용에 의한 식별력 등은 별도로 검토할 사항이므로 지역명이 들어 있다는 이유만으로 모든 결합상표가 거절되는 것은 아닙니다.",
+    "source_ids": [
+      "S009"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q037",
+    "category": "흔한성명칭",
+    "query": "김상사라는 흔한 이름을 보통 글씨로 상표 신청하면 등록되나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T010"
+    ],
+    "reference_answer": "흔히 있는 성 또는 명칭을 보통으로 사용하는 방법으로 표시한 표장만으로 된 상표는 원칙적으로 등록이 제한됩니다. 흔한 성에 상사·상점·회사 등을 결합한 경우도 해당할 수 있습니다. 특수한 구성으로 전체 식별력이 인정되는지 또는 사용에 의한 식별력 요건을 갖추었는지는 별도 검토해야 하며, 상호 등록과 상표등록은 구분해야 합니다.",
+    "source_ids": [
+      "S010"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q038",
+    "category": "흔한성명칭",
+    "query": "사업자 상호로 쓰는 박상점을 상표로도 내려고 해요. 흔한 성에 상점만 붙여도 괜찮나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T010"
+    ],
+    "reference_answer": "흔히 있는 성 또는 명칭을 보통으로 사용하는 방법으로 표시한 표장만으로 된 상표는 원칙적으로 등록이 제한됩니다. 흔한 성에 상사·상점·회사 등을 결합한 경우도 해당할 수 있습니다. 특수한 구성으로 전체 식별력이 인정되는지 또는 사용에 의한 식별력 요건을 갖추었는지는 별도 검토해야 하며, 상호 등록과 상표등록은 구분해야 합니다.",
+    "source_ids": [
+      "S010"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q039",
+    "category": "흔한성명칭",
+    "query": "회사 이름으로 먼저 등록한 명칭이면 식별력 심사 없이 상표도 되는 거죠?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T010"
+    ],
+    "reference_answer": "흔히 있는 성 또는 명칭을 보통으로 사용하는 방법으로 표시한 표장만으로 된 상표는 원칙적으로 등록이 제한됩니다. 흔한 성에 상사·상점·회사 등을 결합한 경우도 해당할 수 있습니다. 특수한 구성으로 전체 식별력이 인정되는지 또는 사용에 의한 식별력 요건을 갖추었는지는 별도 검토해야 하며, 상호 등록과 상표등록은 구분해야 합니다.",
+    "source_ids": [
+      "S010"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q040",
+    "category": "흔한성명칭",
+    "query": "많이 쓰이는 성씨와 회사 표시만 합친 이름은 왜 상표 심사에서 문제가 되나요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T010"
+    ],
+    "reference_answer": "흔히 있는 성 또는 명칭을 보통으로 사용하는 방법으로 표시한 표장만으로 된 상표는 원칙적으로 등록이 제한됩니다. 흔한 성에 상사·상점·회사 등을 결합한 경우도 해당할 수 있습니다. 특수한 구성으로 전체 식별력이 인정되는지 또는 사용에 의한 식별력 요건을 갖추었는지는 별도 검토해야 하며, 상호 등록과 상표등록은 구분해야 합니다.",
+    "source_ids": [
+      "S010"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q041",
+    "category": "간단흔한표장",
+    "query": "평범한 원 하나만 로고로 등록하고 싶어요. 너무 단순하면 거절되나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T011"
+    ],
+    "reference_answer": "간단하고 흔한 표장만으로 된 상표는 원칙적으로 식별력이 없어 등록이 제한됩니다. 단순한 문자·숫자·도형이라는 이유만으로 일률적으로 결론 내리지는 않으며 구성 전체와 거래사회 인식을 검토합니다. 특별한 도안화나 사용에 의한 식별력이 인정되는 경우도 있지만 단순 요소 자체의 독점과 도안 전체의 보호는 구분해야 합니다.",
+    "source_ids": [
+      "S011"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q042",
+    "category": "간단흔한표장",
+    "query": "흔한 숫자나 짧은 문자만 상표로 내면 식별력 문제가 있나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T011"
+    ],
+    "reference_answer": "간단하고 흔한 표장만으로 된 상표는 원칙적으로 식별력이 없어 등록이 제한됩니다. 단순한 문자·숫자·도형이라는 이유만으로 일률적으로 결론 내리지는 않으며 구성 전체와 거래사회 인식을 검토합니다. 특별한 도안화나 사용에 의한 식별력이 인정되는 경우도 있지만 단순 요소 자체의 독점과 도안 전체의 보호는 구분해야 합니다.",
+    "source_ids": [
+      "S011"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q043",
+    "category": "간단흔한표장",
+    "query": "단순 도형을 특별하게 디자인해서 등록하면 기본 도형 자체도 독점하는 건가요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T011"
+    ],
+    "reference_answer": "간단하고 흔한 표장만으로 된 상표는 원칙적으로 식별력이 없어 등록이 제한됩니다. 단순한 문자·숫자·도형이라는 이유만으로 일률적으로 결론 내리지는 않으며 구성 전체와 거래사회 인식을 검토합니다. 특별한 도안화나 사용에 의한 식별력이 인정되는 경우도 있지만 단순 요소 자체의 독점과 도안 전체의 보호는 구분해야 합니다.",
+    "source_ids": [
+      "S011"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q044",
+    "category": "간단흔한표장",
+    "query": "심사관이 간단하고 흔한 표장이라고 했는데 특수한 도안화 여부도 봐 주나요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T011"
+    ],
+    "reference_answer": "간단하고 흔한 표장만으로 된 상표는 원칙적으로 식별력이 없어 등록이 제한됩니다. 단순한 문자·숫자·도형이라는 이유만으로 일률적으로 결론 내리지는 않으며 구성 전체와 거래사회 인식을 검토합니다. 특별한 도안화나 사용에 의한 식별력이 인정되는 경우도 있지만 단순 요소 자체의 독점과 도안 전체의 보호는 구분해야 합니다.",
+    "source_ids": [
+      "S011"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q045",
+    "category": "사용식별력",
+    "query": "설명적인 브랜드명을 10년 썼어요. 오래 썼다는 말만 하면 식별력을 인정받나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T012"
+    ],
+    "reference_answer": "사용에 의한 식별력은 사용 결과 수요자가 특정인의 상품 출처로 인식하게 되었는지를 판단하는 예외입니다. 적용 가능한 식별력 거절 사유인지 먼저 확인하고, 사용 기간·지역·매출·광고·시장점유율·수요자 인식 등 객관적인 자료를 종합해 검토합니다. 오래 사용했다는 주장만으로 자동 인정되지 않으며, 출원 표장과 실제 사용 표장 및 해당 상품의 관계도 확인해야 합니다.",
+    "source_ids": [
+      "S012"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q046",
+    "category": "사용식별력",
+    "query": "사용에 의한 식별력을 주장하려고 하는데 매출 자료와 광고 자료가 도움이 되나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T012"
+    ],
+    "reference_answer": "사용에 의한 식별력은 사용 결과 수요자가 특정인의 상품 출처로 인식하게 되었는지를 판단하는 예외입니다. 적용 가능한 식별력 거절 사유인지 먼저 확인하고, 사용 기간·지역·매출·광고·시장점유율·수요자 인식 등 객관적인 자료를 종합해 검토합니다. 오래 사용했다는 주장만으로 자동 인정되지 않으며, 출원 표장과 실제 사용 표장 및 해당 상품의 관계도 확인해야 합니다.",
+    "source_ids": [
+      "S012"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q047",
+    "category": "사용식별력",
+    "query": "고객들이 저희 상품으로 안다는 설문을 확보했어요. 사용 실적과 함께 제출할 수 있나요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T012"
+    ],
+    "reference_answer": "사용에 의한 식별력은 사용 결과 수요자가 특정인의 상품 출처로 인식하게 되었는지를 판단하는 예외입니다. 적용 가능한 식별력 거절 사유인지 먼저 확인하고, 사용 기간·지역·매출·광고·시장점유율·수요자 인식 등 객관적인 자료를 종합해 검토합니다. 오래 사용했다는 주장만으로 자동 인정되지 않으며, 출원 표장과 실제 사용 표장 및 해당 상품의 관계도 확인해야 합니다.",
+    "source_ids": [
+      "S012"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q048",
+    "category": "사용식별력",
+    "query": "등록하려는 표장과 실제 광고에 쓴 로고가 달라요. 사용증거로 그냥 인정되는 건가요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T012"
+    ],
+    "reference_answer": "사용에 의한 식별력은 사용 결과 수요자가 특정인의 상품 출처로 인식하게 되었는지를 판단하는 예외입니다. 적용 가능한 식별력 거절 사유인지 먼저 확인하고, 사용 기간·지역·매출·광고·시장점유율·수요자 인식 등 객관적인 자료를 종합해 검토합니다. 오래 사용했다는 주장만으로 자동 인정되지 않으며, 출원 표장과 실제 사용 표장 및 해당 상품의 관계도 확인해야 합니다.",
+    "source_ids": [
+      "S012"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q049",
+    "category": "상표유사",
+    "query": "영문 철자는 다른데 읽는 소리가 똑같아요. 상표가 비슷하다고 볼 수 있나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T013"
+    ],
+    "reference_answer": "상표의 유사 여부는 외관·호칭·관념을 살피고 전체적으로 거래에서 출처 혼동 우려가 있는지를 판단합니다. 공통 부분이 있다는 사정만으로 바로 유사하다고 확정하지 않으며 식별력 있는 주요 부분과 전체 구성도 검토합니다. 문자 철자가 조금 다르거나 로고를 바꾸었다고 반드시 비유사한 것은 아니므로 실제 표장과 지정상품 자료가 필요합니다.",
+    "source_ids": [
+      "S013"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q050",
+    "category": "상표유사",
+    "query": "남의 브랜드와 뜻은 같고 생김새는 달라요. 유사 여부는 외관만 보나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T013"
+    ],
+    "reference_answer": "상표의 유사 여부는 외관·호칭·관념을 살피고 전체적으로 거래에서 출처 혼동 우려가 있는지를 판단합니다. 공통 부분이 있다는 사정만으로 바로 유사하다고 확정하지 않으며 식별력 있는 주요 부분과 전체 구성도 검토합니다. 문자 철자가 조금 다르거나 로고를 바꾸었다고 반드시 비유사한 것은 아니므로 실제 표장과 지정상품 자료가 필요합니다.",
+    "source_ids": [
+      "S013"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q051",
+    "category": "상표유사",
+    "query": "기존 이름에 작은 그림을 붙이면 무조건 다른 상표로 인정될까요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T013"
+    ],
+    "reference_answer": "상표의 유사 여부는 외관·호칭·관념을 살피고 전체적으로 거래에서 출처 혼동 우려가 있는지를 판단합니다. 공통 부분이 있다는 사정만으로 바로 유사하다고 확정하지 않으며 식별력 있는 주요 부분과 전체 구성도 검토합니다. 문자 철자가 조금 다르거나 로고를 바꾸었다고 반드시 비유사한 것은 아니므로 실제 표장과 지정상품 자료가 필요합니다.",
+    "source_ids": [
+      "S013"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q052",
+    "category": "상표유사",
+    "query": "브랜드 이름이 일부 겹칩니다. 겹친 글자만 보고 바로 유사라고 결론 낼 수 있나요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T013"
+    ],
+    "reference_answer": "상표의 유사 여부는 외관·호칭·관념을 살피고 전체적으로 거래에서 출처 혼동 우려가 있는지를 판단합니다. 공통 부분이 있다는 사정만으로 바로 유사하다고 확정하지 않으며 식별력 있는 주요 부분과 전체 구성도 검토합니다. 문자 철자가 조금 다르거나 로고를 바꾸었다고 반드시 비유사한 것은 아니므로 실제 표장과 지정상품 자료가 필요합니다.",
+    "source_ids": [
+      "S013"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q053",
+    "category": "상품유사",
+    "query": "둘 다 25류면 무조건 같은 종류의 상품이라서 충돌하나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T014"
+    ],
+    "reference_answer": "상품의 유사 여부는 상품류 번호만으로 결정되지 않습니다. 품질·형상·용도, 생산·판매 부문, 수요자 범위와 거래 실정 등 출처 혼동 가능성을 종합해 검토합니다. 유사군코드는 심사 참고자료이지만 구체적 거래관계를 함께 살펴야 합니다. 같은 류라도 비유사할 수 있고 다른 류라도 유사할 수 있습니다.",
+    "source_ids": [
+      "S014"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q054",
+    "category": "상품유사",
+    "query": "상대방과 상품류 번호가 다르니까 유사상품 문제는 전혀 없겠죠?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T014"
+    ],
+    "reference_answer": "상품의 유사 여부는 상품류 번호만으로 결정되지 않습니다. 품질·형상·용도, 생산·판매 부문, 수요자 범위와 거래 실정 등 출처 혼동 가능성을 종합해 검토합니다. 유사군코드는 심사 참고자료이지만 구체적 거래관계를 함께 살펴야 합니다. 같은 류라도 비유사할 수 있고 다른 류라도 유사할 수 있습니다.",
+    "source_ids": [
+      "S014"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q055",
+    "category": "상품유사",
+    "query": "유사군코드만 다르면 선등록과 충돌할 가능성이 없다고 봐도 되나요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T014"
+    ],
+    "reference_answer": "상품의 유사 여부는 상품류 번호만으로 결정되지 않습니다. 품질·형상·용도, 생산·판매 부문, 수요자 범위와 거래 실정 등 출처 혼동 가능성을 종합해 검토합니다. 유사군코드는 심사 참고자료이지만 구체적 거래관계를 함께 살펴야 합니다. 같은 류라도 비유사할 수 있고 다른 류라도 유사할 수 있습니다.",
+    "source_ids": [
+      "S014"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q056",
+    "category": "상품유사",
+    "query": "심사할 때 상품이 비슷한지는 용도랑 판매 경로도 보나요, 분류 번호만 보나요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T014"
+    ],
+    "reference_answer": "상품의 유사 여부는 상품류 번호만으로 결정되지 않습니다. 품질·형상·용도, 생산·판매 부문, 수요자 범위와 거래 실정 등 출처 혼동 가능성을 종합해 검토합니다. 유사군코드는 심사 참고자료이지만 구체적 거래관계를 함께 살펴야 합니다. 같은 류라도 비유사할 수 있고 다른 류라도 유사할 수 있습니다.",
+    "source_ids": [
+      "S014"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q057",
+    "category": "선등록충돌",
+    "query": "검색해 보니 남이 먼저 등록한 비슷한 이름이 있어요. 저는 무조건 신청 불가인가요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T015"
+    ],
+    "reference_answer": "타인의 유효한 선등록상표와 표장이 동일·유사하고 지정상품도 동일·유사하면 등록이 제한될 수 있습니다. 표장과 상품의 유사성, 선등록 권리의 상태 및 권리자를 함께 확인해야 합니다. 검색에서 비슷한 이름이 발견되었다고 바로 등록 불가를 확정할 수는 없습니다. 구체적 자료에 따라 의견 제출·지정상품 조정·동의제도 적용 가능성 등을 검토합니다.",
+    "source_ids": [
+      "S015"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q058",
+    "category": "선등록충돌",
+    "query": "다른 회사 선등록상표와 이름도 상품도 비슷하다고 통지를 받았어요. 무엇부터 확인하죠?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T015"
+    ],
+    "reference_answer": "타인의 유효한 선등록상표와 표장이 동일·유사하고 지정상품도 동일·유사하면 등록이 제한될 수 있습니다. 표장과 상품의 유사성, 선등록 권리의 상태 및 권리자를 함께 확인해야 합니다. 검색에서 비슷한 이름이 발견되었다고 바로 등록 불가를 확정할 수는 없습니다. 구체적 자료에 따라 의견 제출·지정상품 조정·동의제도 적용 가능성 등을 검토합니다.",
+    "source_ids": [
+      "S015"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q059",
+    "category": "선등록충돌",
+    "query": "먼저 등록된 이름이 있어도 지정상품이 전혀 다르면 판단이 달라지나요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T015"
+    ],
+    "reference_answer": "타인의 유효한 선등록상표와 표장이 동일·유사하고 지정상품도 동일·유사하면 등록이 제한될 수 있습니다. 표장과 상품의 유사성, 선등록 권리의 상태 및 권리자를 함께 확인해야 합니다. 검색에서 비슷한 이름이 발견되었다고 바로 등록 불가를 확정할 수는 없습니다. 구체적 자료에 따라 의견 제출·지정상품 조정·동의제도 적용 가능성 등을 검토합니다.",
+    "source_ids": [
+      "S015"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q060",
+    "category": "선등록충돌",
+    "query": "선등록 브랜드가 살아 있는 권리인지 확인해야 하나요? 이름만 비교하면 되는 줄 알았어요.",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T015"
+    ],
+    "reference_answer": "타인의 유효한 선등록상표와 표장이 동일·유사하고 지정상품도 동일·유사하면 등록이 제한될 수 있습니다. 표장과 상품의 유사성, 선등록 권리의 상태 및 권리자를 함께 확인해야 합니다. 검색에서 비슷한 이름이 발견되었다고 바로 등록 불가를 확정할 수는 없습니다. 구체적 자료에 따라 의견 제출·지정상품 조정·동의제도 적용 가능성 등을 검토합니다.",
+    "source_ids": [
+      "S015"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q061",
+    "category": "공존동의",
+    "query": "먼저 등록한 회사에서 동의서를 준대요. 그러면 모든 거절 사유가 사라지나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T016"
+    ],
+    "reference_answer": "선등록상표권자의 등록 동의가 있으면 상표법 제34조제1항제7호의 일부 충돌에 대해 공존동의제도를 검토할 수 있습니다. 다만 동일한 상표를 동일한 상품에 사용하는 경우 등 적용 제외가 있으며, 다른 거절 사유까지 모두 해소하는 것은 아닙니다. 동의 대상 표장·상품·권리자와 증명서류의 적정성을 확인해야 하므로 동의만으로 등록이 보장되지는 않습니다.",
+    "source_ids": [
+      "S016"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q062",
+    "category": "공존동의",
+    "query": "완전히 똑같은 상표를 똑같은 상품에 쓰려는데 선등록권자가 허락하면 공존동의가 적용되나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T016"
+    ],
+    "reference_answer": "선등록상표권자의 등록 동의가 있으면 상표법 제34조제1항제7호의 일부 충돌에 대해 공존동의제도를 검토할 수 있습니다. 다만 동일한 상표를 동일한 상품에 사용하는 경우 등 적용 제외가 있으며, 다른 거절 사유까지 모두 해소하는 것은 아닙니다. 동의 대상 표장·상품·권리자와 증명서류의 적정성을 확인해야 하므로 동의만으로 등록이 보장되지는 않습니다.",
+    "source_ids": [
+      "S016"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q063",
+    "category": "공존동의",
+    "query": "비슷한 선등록 이름에 대해 등록 동의를 받았어요. 어떤 사항을 확인해야 하죠?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T016"
+    ],
+    "reference_answer": "선등록상표권자의 등록 동의가 있으면 상표법 제34조제1항제7호의 일부 충돌에 대해 공존동의제도를 검토할 수 있습니다. 다만 동일한 상표를 동일한 상품에 사용하는 경우 등 적용 제외가 있으며, 다른 거절 사유까지 모두 해소하는 것은 아닙니다. 동의 대상 표장·상품·권리자와 증명서류의 적정성을 확인해야 하므로 동의만으로 등록이 보장되지는 않습니다.",
+    "source_ids": [
+      "S016"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q064",
+    "category": "공존동의",
+    "query": "권리자와 협의해서 공존하기로 했는데 동의서만 있으면 등록을 확정해도 되나요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T016"
+    ],
+    "reference_answer": "선등록상표권자의 등록 동의가 있으면 상표법 제34조제1항제7호의 일부 충돌에 대해 공존동의제도를 검토할 수 있습니다. 다만 동일한 상표를 동일한 상품에 사용하는 경우 등 적용 제외가 있으며, 다른 거절 사유까지 모두 해소하는 것은 아닙니다. 동의 대상 표장·상품·권리자와 증명서류의 적정성을 확인해야 하므로 동의만으로 등록이 보장되지는 않습니다.",
+    "source_ids": [
+      "S016"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q065",
+    "category": "주지저명모방",
+    "query": "유명 브랜드 이름을 다른 상품류에 내면 유명세를 이용해도 등록 가능한가요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T017"
+    ],
+    "reference_answer": "타인의 주지·저명 상표와 혼동을 일으키거나 부정한 목적으로 사용하려는 표장은 등록이 제한될 수 있습니다. 상품류를 달리했다는 이유만으로 안전하다고 판단할 수 없으며, 인지도·표장의 유사성·경제적 관련성·출원 경위 등을 구체적으로 검토해야 합니다. 유명 상표의 명성에 편승하는 이름은 별도 식별력과 충돌 위험을 확인해야 합니다.",
+    "source_ids": [
+      "S017"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q066",
+    "category": "주지저명모방",
+    "query": "다른 업종의 잘 알려진 이름과 거의 같은 상표를 만들었어요. 업종만 다르면 괜찮나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T017"
+    ],
+    "reference_answer": "타인의 주지·저명 상표와 혼동을 일으키거나 부정한 목적으로 사용하려는 표장은 등록이 제한될 수 있습니다. 상품류를 달리했다는 이유만으로 안전하다고 판단할 수 없으며, 인지도·표장의 유사성·경제적 관련성·출원 경위 등을 구체적으로 검토해야 합니다. 유명 상표의 명성에 편승하는 이름은 별도 식별력과 충돌 위험을 확인해야 합니다.",
+    "source_ids": [
+      "S017"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q067",
+    "category": "주지저명모방",
+    "query": "남의 유명 브랜드를 살짝 바꾼 이름이라 홍보가 쉬울 것 같아요. 등록 제한이 있을까요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T017"
+    ],
+    "reference_answer": "타인의 주지·저명 상표와 혼동을 일으키거나 부정한 목적으로 사용하려는 표장은 등록이 제한될 수 있습니다. 상품류를 달리했다는 이유만으로 안전하다고 판단할 수 없으며, 인지도·표장의 유사성·경제적 관련성·출원 경위 등을 구체적으로 검토해야 합니다. 유명 상표의 명성에 편승하는 이름은 별도 식별력과 충돌 위험을 확인해야 합니다.",
+    "source_ids": [
+      "S017"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q068",
+    "category": "주지저명모방",
+    "query": "저명상표랑 비슷하지만 상품은 다릅니다. 출처 혼동이나 부정한 목적도 심사하나요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T017"
+    ],
+    "reference_answer": "타인의 주지·저명 상표와 혼동을 일으키거나 부정한 목적으로 사용하려는 표장은 등록이 제한될 수 있습니다. 상품류를 달리했다는 이유만으로 안전하다고 판단할 수 없으며, 인지도·표장의 유사성·경제적 관련성·출원 경위 등을 구체적으로 검토해야 합니다. 유명 상표의 명성에 편승하는 이름은 별도 식별력과 충돌 위험을 확인해야 합니다.",
+    "source_ids": [
+      "S017"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q069",
+    "category": "품질오인",
+    "query": "합성 소재 옷인데 이름에 순수 실크라고 넣으면 품질 오인 문제가 생기나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T018"
+    ],
+    "reference_answer": "상품의 품질을 오인하게 하거나 수요자를 기만할 우려가 있는 상표는 등록이 제한될 수 있습니다. 지정상품과 표장의 의미 및 일반 수요자의 인식을 함께 봅니다. 실제 상품과 어긋나는 원재료·효능·산지 등을 나타내는 표현은 검토가 필요하며, 설명문을 붙였다는 이유만으로 항상 위험이 없어지는 것은 아닙니다.",
+    "source_ids": [
+      "S018"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q070",
+    "category": "품질오인",
+    "query": "국산이 아닌데 국내 산지라고 느껴지는 상표를 쓰려 해요. 기만 가능성도 심사하나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T018"
+    ],
+    "reference_answer": "상품의 품질을 오인하게 하거나 수요자를 기만할 우려가 있는 상표는 등록이 제한될 수 있습니다. 지정상품과 표장의 의미 및 일반 수요자의 인식을 함께 봅니다. 실제 상품과 어긋나는 원재료·효능·산지 등을 나타내는 표현은 검토가 필요하며, 설명문을 붙였다는 이유만으로 항상 위험이 없어지는 것은 아닙니다.",
+    "source_ids": [
+      "S018"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q071",
+    "category": "품질오인",
+    "query": "원재료가 들어 있지 않은데 그 재료가 핵심인 것처럼 이름을 지었어요. 등록될까요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T018"
+    ],
+    "reference_answer": "상품의 품질을 오인하게 하거나 수요자를 기만할 우려가 있는 상표는 등록이 제한될 수 있습니다. 지정상품과 표장의 의미 및 일반 수요자의 인식을 함께 봅니다. 실제 상품과 어긋나는 원재료·효능·산지 등을 나타내는 표현은 검토가 필요하며, 설명문을 붙였다는 이유만으로 항상 위험이 없어지는 것은 아닙니다.",
+    "source_ids": [
+      "S018"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q072",
+    "category": "품질오인",
+    "query": "실제 품질과 다른 인상을 주는 브랜드인데 작은 설명을 붙이면 무조건 괜찮나요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T018"
+    ],
+    "reference_answer": "상품의 품질을 오인하게 하거나 수요자를 기만할 우려가 있는 상표는 등록이 제한될 수 있습니다. 지정상품과 표장의 의미 및 일반 수요자의 인식을 함께 봅니다. 실제 상품과 어긋나는 원재료·효능·산지 등을 나타내는 표현은 검토가 필요하며, 설명문을 붙였다는 이유만으로 항상 위험이 없어지는 것은 아닙니다.",
+    "source_ids": [
+      "S018"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q073",
+    "category": "기능적형상",
+    "query": "제품 작동에 꼭 필요한 모양을 입체상표로 등록해서 독점할 수 있나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T019"
+    ],
+    "reference_answer": "상품 또는 포장의 기능을 확보하는 데 꼭 필요한 입체적 형상 등으로만 된 상표는 등록이 제한될 수 있습니다. 기능적 요소를 상표권으로 독점시키지 않으려는 취지이며, 식별력 판단과 기능성 판단은 구분됩니다. 단순히 소비자에게 알려졌다는 이유만으로 기능적 형상 제한이 없어지는 것은 아니므로 형태와 기능의 관계를 확인해야 합니다.",
+    "source_ids": [
+      "S019"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q074",
+    "category": "기능적형상",
+    "query": "포장 구조가 기능상 필수인데 오래 써서 유명해졌어요. 입체상표 등록이 보장되나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T019"
+    ],
+    "reference_answer": "상품 또는 포장의 기능을 확보하는 데 꼭 필요한 입체적 형상 등으로만 된 상표는 등록이 제한될 수 있습니다. 기능적 요소를 상표권으로 독점시키지 않으려는 취지이며, 식별력 판단과 기능성 판단은 구분됩니다. 단순히 소비자에게 알려졌다는 이유만으로 기능적 형상 제한이 없어지는 것은 아니므로 형태와 기능의 관계를 확인해야 합니다.",
+    "source_ids": [
+      "S019"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q075",
+    "category": "기능적형상",
+    "query": "기술적인 효과를 내기 위한 형상뿐인 로고도 기능성 검토 대상인가요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T019"
+    ],
+    "reference_answer": "상품 또는 포장의 기능을 확보하는 데 꼭 필요한 입체적 형상 등으로만 된 상표는 등록이 제한될 수 있습니다. 기능적 요소를 상표권으로 독점시키지 않으려는 취지이며, 식별력 판단과 기능성 판단은 구분됩니다. 단순히 소비자에게 알려졌다는 이유만으로 기능적 형상 제한이 없어지는 것은 아니므로 형태와 기능의 관계를 확인해야 합니다.",
+    "source_ids": [
+      "S019"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q076",
+    "category": "기능적형상",
+    "query": "상표의 식별력이 있으면 기능에 꼭 필요한 제품 외형도 제한 없이 등록되나요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T019"
+    ],
+    "reference_answer": "상품 또는 포장의 기능을 확보하는 데 꼭 필요한 입체적 형상 등으로만 된 상표는 등록이 제한될 수 있습니다. 기능적 요소를 상표권으로 독점시키지 않으려는 취지이며, 식별력 판단과 기능성 판단은 구분됩니다. 단순히 소비자에게 알려졌다는 이유만으로 기능적 형상 제한이 없어지는 것은 아니므로 형태와 기능의 관계를 확인해야 합니다.",
+    "source_ids": [
+      "S019"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q077",
+    "category": "거절이유통지",
+    "query": "상표 의견제출통지서가 왔어요. 이미 완전히 거절된 건가요, 답변 기회가 있나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T020"
+    ],
+    "reference_answer": "의견제출통지서는 거절이유에 대해 설명하거나 보정할 기회를 주는 절차로, 최종 거절결정과 구분됩니다. 통지된 조문·대상 상품·이유 및 지정된 제출기간을 확인하고 의견서, 허용 범위의 보정서와 증거를 준비해야 합니다. 기한은 실제 통지서를 기준으로 확인하며, 사건 내용 없이 해소 가능성이나 등록 결과를 단정할 수 없습니다.",
+    "source_ids": [
+      "S020"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q078",
+    "category": "거절이유통지",
+    "query": "심사관이 식별력이 없다고 의견서를 내래요. 어떤 자료와 기한을 먼저 확인해야 하나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T020"
+    ],
+    "reference_answer": "의견제출통지서는 거절이유에 대해 설명하거나 보정할 기회를 주는 절차로, 최종 거절결정과 구분됩니다. 통지된 조문·대상 상품·이유 및 지정된 제출기간을 확인하고 의견서, 허용 범위의 보정서와 증거를 준비해야 합니다. 기한은 실제 통지서를 기준으로 확인하며, 사건 내용 없이 해소 가능성이나 등록 결과를 단정할 수 없습니다.",
+    "source_ids": [
+      "S020"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q079",
+    "category": "거절이유통지",
+    "query": "거절이유 통지만 받았는데 지금 바로 거절결정 불복심판을 해야 하는 건가요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T020"
+    ],
+    "reference_answer": "의견제출통지서는 거절이유에 대해 설명하거나 보정할 기회를 주는 절차로, 최종 거절결정과 구분됩니다. 통지된 조문·대상 상품·이유 및 지정된 제출기간을 확인하고 의견서, 허용 범위의 보정서와 증거를 준비해야 합니다. 기한은 실제 통지서를 기준으로 확인하며, 사건 내용 없이 해소 가능성이나 등록 결과를 단정할 수 없습니다.",
+    "source_ids": [
+      "S020"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q080",
+    "category": "거절이유통지",
+    "query": "서류에 적힌 제출 날짜가 얼마 안 남았어요. 거절 이유별 의견서와 보정서를 준비해야 하나요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T020"
+    ],
+    "reference_answer": "의견제출통지서는 거절이유에 대해 설명하거나 보정할 기회를 주는 절차로, 최종 거절결정과 구분됩니다. 통지된 조문·대상 상품·이유 및 지정된 제출기간을 확인하고 의견서, 허용 범위의 보정서와 증거를 준비해야 합니다. 기한은 실제 통지서를 기준으로 확인하며, 사건 내용 없이 해소 가능성이나 등록 결과를 단정할 수 없습니다.",
+    "source_ids": [
+      "S020"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q081",
+    "category": "거절결정대응",
+    "query": "상표등록 거절결정서를 받았습니다. 의견제출통지 때와 똑같이 의견서만 보내면 되나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T021"
+    ],
+    "reference_answer": "최종 거절결정은 의견제출통지와 다릅니다. 결정서와 송달일, 거절 대상 상품 및 이유를 확인한 뒤 거절결정 불복심판이나 요건을 갖춘 재심사 청구 등 적용 가능한 절차를 검토합니다. 절차마다 청구 요건과 기간이 있으므로 결정서와 적용 법령을 확인해야 하며, 기존 의견서만 다시 보내면 자동으로 재개된다고 볼 수 없습니다.",
+    "source_ids": [
+      "S021"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q082",
+    "category": "거절결정대응",
+    "query": "최종 거절됐는데 다시 심사를 받거나 불복할 방법이 있나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T021"
+    ],
+    "reference_answer": "최종 거절결정은 의견제출통지와 다릅니다. 결정서와 송달일, 거절 대상 상품 및 이유를 확인한 뒤 거절결정 불복심판이나 요건을 갖춘 재심사 청구 등 적용 가능한 절차를 검토합니다. 절차마다 청구 요건과 기간이 있으므로 결정서와 적용 법령을 확인해야 하며, 기존 의견서만 다시 보내면 자동으로 재개된다고 볼 수 없습니다.",
+    "source_ids": [
+      "S021"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q083",
+    "category": "거절결정대응",
+    "query": "결정문을 받았지만 송달 날짜를 모르겠어요. 불복 준비 전에 무엇을 확인해야 할까요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T021"
+    ],
+    "reference_answer": "최종 거절결정은 의견제출통지와 다릅니다. 결정서와 송달일, 거절 대상 상품 및 이유를 확인한 뒤 거절결정 불복심판이나 요건을 갖춘 재심사 청구 등 적용 가능한 절차를 검토합니다. 절차마다 청구 요건과 기간이 있으므로 결정서와 적용 법령을 확인해야 하며, 기존 의견서만 다시 보내면 자동으로 재개된다고 볼 수 없습니다.",
+    "source_ids": [
+      "S021"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q084",
+    "category": "거절결정대응",
+    "query": "일부 상품에 대해 거절결정이 났어요. 결정 이유와 대상 범위를 보고 대응해야 하나요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T021"
+    ],
+    "reference_answer": "최종 거절결정은 의견제출통지와 다릅니다. 결정서와 송달일, 거절 대상 상품 및 이유를 확인한 뒤 거절결정 불복심판이나 요건을 갖춘 재심사 청구 등 적용 가능한 절차를 검토합니다. 절차마다 청구 요건과 기간이 있으므로 결정서와 적용 법령을 확인해야 하며, 기존 의견서만 다시 보내면 자동으로 재개된다고 볼 수 없습니다.",
+    "source_ids": [
+      "S021"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q085",
+    "category": "우선심사",
+    "query": "출시 일정이 급해요. 돈을 더 내면 누구나 상표 우선심사가 되나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T022"
+    ],
+    "reference_answer": "상표 심사는 원칙적으로 출원 순위에 따르지만 우선심사 대상 요건을 갖추면 우선심사를 신청할 수 있습니다. 지정상품 사용 또는 사용 준비 등 해당 사유와 증명자료, 신청 설명서를 확인해야 합니다. 단순히 급하다는 사정이나 수수료 납부만으로 승인·등록이 보장되지는 않으며, 우선심사는 등록 요건 심사를 생략하는 제도가 아닙니다.",
+    "source_ids": [
+      "S022"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q086",
+    "category": "우선심사",
+    "query": "이미 지정상품에 브랜드를 쓰고 있는데 빨리 심사받는 신청에 증거가 필요한가요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T022"
+    ],
+    "reference_answer": "상표 심사는 원칙적으로 출원 순위에 따르지만 우선심사 대상 요건을 갖추면 우선심사를 신청할 수 있습니다. 지정상품 사용 또는 사용 준비 등 해당 사유와 증명자료, 신청 설명서를 확인해야 합니다. 단순히 급하다는 사정이나 수수료 납부만으로 승인·등록이 보장되지는 않으며, 우선심사는 등록 요건 심사를 생략하는 제도가 아닙니다.",
+    "source_ids": [
+      "S022"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q087",
+    "category": "우선심사",
+    "query": "우선심사 승인받으면 식별력이나 선등록 충돌 심사는 생략되는 거죠?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T022"
+    ],
+    "reference_answer": "상표 심사는 원칙적으로 출원 순위에 따르지만 우선심사 대상 요건을 갖추면 우선심사를 신청할 수 있습니다. 지정상품 사용 또는 사용 준비 등 해당 사유와 증명자료, 신청 설명서를 확인해야 합니다. 단순히 급하다는 사정이나 수수료 납부만으로 승인·등록이 보장되지는 않으며, 우선심사는 등록 요건 심사를 생략하는 제도가 아닙니다.",
+    "source_ids": [
+      "S022"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q088",
+    "category": "우선심사",
+    "query": "상품 출시 준비 자료가 있어요. 우선심사 대상과 신청서류를 확인하고 싶습니다.",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T022"
+    ],
+    "reference_answer": "상표 심사는 원칙적으로 출원 순위에 따르지만 우선심사 대상 요건을 갖추면 우선심사를 신청할 수 있습니다. 지정상품 사용 또는 사용 준비 등 해당 사유와 증명자료, 신청 설명서를 확인해야 합니다. 단순히 급하다는 사정이나 수수료 납부만으로 승인·등록이 보장되지는 않으며, 우선심사는 등록 요건 심사를 생략하는 제도가 아닙니다.",
+    "source_ids": [
+      "S022"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q089",
+    "category": "이의신청",
+    "query": "경쟁사 상표가 공고됐는데 우리 브랜드랑 충돌해요. 이의를 내려고 하면 무엇이 필요하죠?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T023"
+    ],
+    "reference_answer": "출원공고된 상표에 거절이유가 있다고 판단되면 정해진 이의신청 기간 내에 이유와 증거를 갖춰 이의신청할 수 있습니다. 출원공고일과 사건에 적용되는 최신 법령·경과규정을 확인해 마감일을 먼저 확정해야 합니다. 이의신청 제도와 등록 후 무효·취소 절차는 구분되며, 출원인은 이의신청 이유에 대해 답변할 기회를 갖습니다.",
+    "source_ids": [
+      "S023"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q090",
+    "category": "이의신청",
+    "query": "타인 상표의 출원공고를 봤어요. 신청 기한은 공고일과 적용 법령을 확인해야 하나요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T023"
+    ],
+    "reference_answer": "출원공고된 상표에 거절이유가 있다고 판단되면 정해진 이의신청 기간 내에 이유와 증거를 갖춰 이의신청할 수 있습니다. 출원공고일과 사건에 적용되는 최신 법령·경과규정을 확인해 마감일을 먼저 확정해야 합니다. 이의신청 제도와 등록 후 무효·취소 절차는 구분되며, 출원인은 이의신청 이유에 대해 답변할 기회를 갖습니다.",
+    "source_ids": [
+      "S023"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q091",
+    "category": "이의신청",
+    "query": "이의신청이 들어왔다는 통지를 받은 출원인입니다. 저도 답변할 기회가 있나요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T023"
+    ],
+    "reference_answer": "출원공고된 상표에 거절이유가 있다고 판단되면 정해진 이의신청 기간 내에 이유와 증거를 갖춰 이의신청할 수 있습니다. 출원공고일과 사건에 적용되는 최신 법령·경과규정을 확인해 마감일을 먼저 확정해야 합니다. 이의신청 제도와 등록 후 무효·취소 절차는 구분되며, 출원인은 이의신청 이유에 대해 답변할 기회를 갖습니다.",
+    "source_ids": [
+      "S023"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q092",
+    "category": "이의신청",
+    "query": "이미 등록된 상표를 없애고 싶은데 출원공고 이의신청과 같은 절차인가요?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T023"
+    ],
+    "reference_answer": "출원공고된 상표에 거절이유가 있다고 판단되면 정해진 이의신청 기간 내에 이유와 증거를 갖춰 이의신청할 수 있습니다. 출원공고일과 사건에 적용되는 최신 법령·경과규정을 확인해 마감일을 먼저 확정해야 합니다. 이의신청 제도와 등록 후 무효·취소 절차는 구분되며, 출원인은 이의신청 이유에 대해 답변할 기회를 갖습니다.",
+    "source_ids": [
+      "S023"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q093",
+    "category": "정보제공",
+    "query": "아직 공고 전인 남의 출원에 문제가 있어 보여요. 심사관에게 증거를 보낼 방법이 있나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T024"
+    ],
+    "reference_answer": "누구든지 심사 중인 상표출원에 거절이유가 있다는 취지의 정보와 증거를 제공할 수 있습니다. 정보제공은 등록여부결정 전까지 가능하며 이의신청과 별개의 제도입니다. 익명 제출도 심사에 참고할 수 있습니다. 제공된 정보가 반드시 거절로 이어지는 것은 아니며, 실제 출원과 연결되는 근거 및 증거를 제출해야 합니다.",
+    "source_ids": [
+      "S024"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q094",
+    "category": "정보제공",
+    "query": "이의신청 말고 정보제공이라는 방법이 있던데 심사 중에도 가능한가요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T024"
+    ],
+    "reference_answer": "누구든지 심사 중인 상표출원에 거절이유가 있다는 취지의 정보와 증거를 제공할 수 있습니다. 정보제공은 등록여부결정 전까지 가능하며 이의신청과 별개의 제도입니다. 익명 제출도 심사에 참고할 수 있습니다. 제공된 정보가 반드시 거절로 이어지는 것은 아니며, 실제 출원과 연결되는 근거 및 증거를 제출해야 합니다.",
+    "source_ids": [
+      "S024"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q095",
+    "category": "정보제공",
+    "query": "이름을 밝히지 않고 상표출원의 거절 근거를 전달해도 참고해 주나요?",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T024"
+    ],
+    "reference_answer": "누구든지 심사 중인 상표출원에 거절이유가 있다는 취지의 정보와 증거를 제공할 수 있습니다. 정보제공은 등록여부결정 전까지 가능하며 이의신청과 별개의 제도입니다. 익명 제출도 심사에 참고할 수 있습니다. 제공된 정보가 반드시 거절로 이어지는 것은 아니며, 실제 출원과 연결되는 근거 및 증거를 제출해야 합니다.",
+    "source_ids": [
+      "S024"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q096",
+    "category": "정보제공",
+    "query": "정보제출서를 내면 상대방 상표는 반드시 거절되는 건가요? 아직 등록 결정 전입니다.",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T024"
+    ],
+    "reference_answer": "누구든지 심사 중인 상표출원에 거절이유가 있다는 취지의 정보와 증거를 제공할 수 있습니다. 정보제공은 등록여부결정 전까지 가능하며 이의신청과 별개의 제도입니다. 익명 제출도 심사에 참고할 수 있습니다. 제공된 정보가 반드시 거절로 이어지는 것은 아니며, 실제 출원과 연결되는 근거 및 증거를 제출해야 합니다.",
+    "source_ids": [
+      "S024"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q097",
+    "category": "수수료",
+    "query": "상표를 두 개 류에 내려고 해요. 지금 총비용이 정확히 얼마인지 바로 말해 줄 수 있나요?",
+    "style": "상담형",
+    "expected_template_ids": [
+      "T025"
+    ],
+    "reference_answer": "출원료와 등록료는 서로 다른 단계의 비용이며 상품류 수, 지정상품 수, 신청 방식, 감면 해당 여부 등에 따라 달라질 수 있습니다. 첨부 상표심사기준만으로 현재 적용 금액을 확정할 수 없으므로 납부 시점의 공식 수수료표와 감면 요건을 확인해야 합니다. 대리인 보수는 관납료와 구분해 견적을 받아야 하며 사건 정보 없이 총액을 단정할 수 없습니다.",
+    "source_ids": [
+      "S025"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q098",
+    "category": "수수료",
+    "query": "출원할 때 낸 돈에 나중 등록료도 다 포함된 건가요?",
+    "style": "절차확인형",
+    "expected_template_ids": [
+      "T025"
+    ],
+    "reference_answer": "출원료와 등록료는 서로 다른 단계의 비용이며 상품류 수, 지정상품 수, 신청 방식, 감면 해당 여부 등에 따라 달라질 수 있습니다. 첨부 상표심사기준만으로 현재 적용 금액을 확정할 수 없으므로 납부 시점의 공식 수수료표와 감면 요건을 확인해야 합니다. 대리인 보수는 관납료와 구분해 견적을 받아야 하며 사건 정보 없이 총액을 단정할 수 없습니다.",
+    "source_ids": [
+      "S025"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q099",
+    "category": "수수료",
+    "query": "변리사 비용과 관청에 내는 상표 수수료는 같은 돈인가요? 감면도 알고 싶어요.",
+    "style": "오해·경계조건형",
+    "expected_template_ids": [
+      "T025"
+    ],
+    "reference_answer": "출원료와 등록료는 서로 다른 단계의 비용이며 상품류 수, 지정상품 수, 신청 방식, 감면 해당 여부 등에 따라 달라질 수 있습니다. 첨부 상표심사기준만으로 현재 적용 금액을 확정할 수 없으므로 납부 시점의 공식 수수료표와 감면 요건을 확인해야 합니다. 대리인 보수는 관납료와 구분해 견적을 받아야 하며 사건 정보 없이 총액을 단정할 수 없습니다.",
+    "source_ids": [
+      "S025"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  },
+  {
+    "case_id": "Q100",
+    "category": "수수료",
+    "query": "전자출원인지와 상품 개수에 따라 비용이 달라질 수 있나요? 최신 금액은 어디 기준으로 확인하죠?",
+    "style": "구어·상황형",
+    "expected_template_ids": [
+      "T025"
+    ],
+    "reference_answer": "출원료와 등록료는 서로 다른 단계의 비용이며 상품류 수, 지정상품 수, 신청 방식, 감면 해당 여부 등에 따라 달라질 수 있습니다. 첨부 상표심사기준만으로 현재 적용 금액을 확정할 수 없으므로 납부 시점의 공식 수수료표와 감면 요건을 확인해야 합니다. 대리인 보수는 관납료와 구분해 견적을 받아야 하며 사건 정보 없이 총액을 단정할 수 없습니다.",
+    "source_ids": [
+      "S025"
+    ],
+    "origin": "synthetic_authored",
+    "approval_status": "pending_expert_review",
+    "split": "draft_evaluation_not_independent_holdout",
+    "required_checks": [
+      "문맥과 의도 일치",
+      "핵심 절차·조건 누락 없음",
+      "원문 기준 및 최신 적용 규정과 모순 없음",
+      "질문하지 않은 사실·확정 판단 생성 없음",
+      "추가 수정 없이 활용 가능"
+    ]
+  }
+]

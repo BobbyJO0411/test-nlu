@@ -1,0 +1,11 @@
+{
+  "runs": [
+    "artifacts/runs/20261014T025657Z-dfaeaa5a",
+    "artifacts/runs/20261014T025804Z-248d85de"
+  ],
+  "same_top1_count": 100,
+  "total": 100,
+  "max_candidate_score_difference": 0.0,
+  "status": "passed",
+  "note": "Execution repeatability, not evaluator agreement"
+}

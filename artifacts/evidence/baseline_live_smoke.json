@@ -1,0 +1,51 @@
+{
+  "health": {
+    "status": "ready",
+    "engine": {
+      "backend": "baseline",
+      "model_id": "char-tfidf-2-5",
+      "note": "Lexical baseline only. NOT E5, KoBERT or evidence of embedding NLU readiness.",
+      "templates_sha256": "a796df8518329f39d8bb5d92626f17645b58b3acdb77402c91bce53caf53c44b"
+    },
+    "expert_approval": "pending"
+  },
+  "representative_response": {
+    "query": "상표 의견제출통지서를 받았는데 최종 거절인가요?",
+    "selected_template_id": "T020",
+    "recommended_answer": "의견제출통지서는 거절이유에 대해 설명하거나 보정할 기회를 주는 절차로, 최종 거절결정과 구분됩니다. 통지된 조문·대상 상품·이유 및 지정된 제출기간을 확인하고 의견서, 허용 범위의 보정서와 증거를 준비해야 합니다. 기한은 실제 통지서를 기준으로 확인하며, 사건 내용 없이 해소 가능성이나 등록 결과를 단정할 수 없습니다.",
+    "candidates": [
+      {
+        "rank": 1,
+        "template_id": "T020",
+        "score": 0.3333979804561591,
+        "answer": "의견제출통지서는 거절이유에 대해 설명하거나 보정할 기회를 주는 절차로, 최종 거절결정과 구분됩니다. 통지된 조문·대상 상품·이유 및 지정된 제출기간을 확인하고 의견서, 허용 범위의 보정서와 증거를 준비해야 합니다. 기한은 실제 통지서를 기준으로 확인하며, 사건 내용 없이 해소 가능성이나 등록 결과를 단정할 수 없습니다.",
+        "source_ids": [
+          "S020"
+        ]
+      },
+      {
+        "rank": 2,
+        "template_id": "T021",
+        "score": 0.16862982508003124,
+        "answer": "최종 거절결정은 의견제출통지와 다릅니다. 결정서와 송달일, 거절 대상 상품 및 이유를 확인한 뒤 거절결정 불복심판이나 요건을 갖춘 재심사 청구 등 적용 가능한 절차를 검토합니다. 절차마다 청구 요건과 기간이 있으므로 결정서와 적용 법령을 확인해야 하며, 기존 의견서만 다시 보내면 자동으로 재개된다고 볼 수 없습니다.",
+        "source_ids": [
+          "S021"
+        ]
+      },
+      {
+        "rank": 3,
+        "template_id": "T030",
+        "score": 0.03574162441728414,
+        "answer": "등록 가능성을 검토하려면 실제 상표 견본, 지정상품·서비스, 출원 또는 등록 상태와 문제된 선행상표·통지서 등 자료가 필요합니다. 현재 정보만으로 등록 가능 여부를 확정할 수 없으므로 자료를 확인한 후 식별력과 충돌 여부를 검토해야 합니다.",
+        "source_ids": [
+          "S030"
+        ]
+      }
+    ],
+    "latency_ms": 1.23,
+    "mode": "template_direct",
+    "requires_practitioner_review": true
+  },
+  "status": "passed",
+  "scope": "live baseline API only, E5 model not yet executable"
+}

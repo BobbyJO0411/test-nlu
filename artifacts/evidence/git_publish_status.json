@@ -1,0 +1,10 @@
+{
+  "repository": "BobbyJO0411/test-nlu",
+  "local_branch": "main",
+  "initial_local_commit": "e1fd19b4bcc4dcbfa7683b2989567e6206b1762a",
+  "push_status": "blocked",
+  "http_status": 403,
+  "connected_identity": "branvip0001-dev",
+  "reason": "Repository write permission denied",
+  "required_action": "Grant Write permission to the connected identity or reconnect a GitHub account with write access"
+}

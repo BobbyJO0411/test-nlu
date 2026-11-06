@@ -1,0 +1,25 @@
+{
+  "run_id": "20261014T025804Z-248d85de",
+  "backend": "e5",
+  "status": "draft_review_package",
+  "files_sha256": {
+    "현재검증결과.md": "029cbc5ba4c8ea37c9484cdb65f8fde1360f7e0e758249286259b93c36a027db",
+    "평가자A_실평가.xlsx": "43abe82d9fd698b75a160d397f9deed767dd6ac998b64d6a0662f5006605644d",
+    "협의결과_빈양식.csv": "3c54c9f42e2a97a2c889267ea52503a04a026925867de5c5f7295f82fa23a3b2",
+    "근거검토_및_제출체크리스트.docx": "5cdd8e955825e3381b42a82a107cfedf95d836416845be477945abae18331043",
+    "개발실행_ratings_blank.csv": "91d7e4ddea39ba4e0b1ab04f311e291bf4fa3e5c4f947277b28edb04d23a4040",
+    "시험성적서_작성양식.docx": "49bd1138af64b550be2c71850e8a8b80b405da03ef7a82f635865a6e0ea12c6d",
+    "평가자B_실평가.xlsx": "467354bd6ab3e97a76d5aae518be4d593a95209afb849df41ed5e54c2c3e6b5c",
+    "모의평가_집계.json": "1b2fefd2a2a5e6a289cf685ddb987e176979f2df743b81850e832db8789c9918",
+    "모의평가_제출불가.csv": "8e298fc0d0b33443c79769fbe2d0b445059aa35853b455e00557595d142b965c",
+    "개발실행_recommendations.json": "42c6c2cdf38be3c91f71813d502026a4d5db4111dec196737ebfbab34583b59a",
+    "model_source.json": "206cda1c37777e4cf9911321ef906492f17aac99dda8332b115e69485b0d7fda",
+    "verified_model_manifest.json": "aae857da06cbfa30cab19e5000d0d92f66081393a8a9803d296be1d455cbeec5",
+    "시험방법서.docx": "6eec8cfb308d5a393f475eb93a9aceafcd9c4a08f51b5d6af7e392b7a88c185a",
+    "평가기준_설문_협의절차.docx": "c1f411aeec0bbf28a511163b66c44aaeb8854d7e029fab573a5ee27900dc3043",
+    "개발실행_manifest.json": "9578d3106468cc666d4758aea7f4207e727c3b1186e58048cd34d0cef1e4da96",
+    "검토_안내.txt": "f00a4bbddcd50157b9413ff63c8ce418f9e7f64a441b31f7fee2572abcde3f8e",
+    "NLU_100건_평가데이터시트.xlsx": "9f52e8b6f8c5333e5a332d7774ef055bcd3735062288b8ae0c5425ee5797c46f"
+  },
+  "simulated_metrics_submission_eligible": false
+}

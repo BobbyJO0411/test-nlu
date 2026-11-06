@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "total": 100,
+  "initial_agreements": 95,
+  "initial_disagreements": 5,
+  "agreement_pct": 95.0,
+  "unresolved_ids": [],
+  "suitability_pct": 63.0,
+  "success_count": 63,
+  "failure_count": 37,
+  "cohen_kappa": 0.889673,
+  "wilson_95_pct": [
+    53.221,
+    71.818
+  ],
+  "run_id": "20261014T025804Z-248d85de",
+  "ratings_sha256": "8e298fc0d0b33443c79769fbe2d0b445059aa35853b455e00557595d142b965c",
+  "expert_approval_record_present": false,
+  "evaluator_records_complete": false,
+  "embedding_backend": true,
+  "recorded_manual_provenance": false,
+  "questionnaire_complete": false,
+  "questionnaire_statistics": {},
+  "resolution_records_complete": false,
+  "agency_approval_record_present": false,
+  "submission_candidate": false,
+  "note": "Computes recorded judgments only; cannot authenticate identities, credentials or actual review. Agency approval and signatures remain necessary."
+}

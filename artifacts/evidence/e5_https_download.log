@@ -1,0 +1,143 @@
+
+Fetching 9 files:   0%|          | 0/9 [00:00<?[signed-query-redacted] ?[signed-query-redacted]'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/8b03b9e079abc849bdd27d0942fa6a77f9e7836db188512be97e4b3d52f415a8?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: 026fad6a-1a3c-4c5d-bbad-dbf6a8497bf1)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/sentencepiece.bpe.model
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/f63b59f1a0edbaa6f315e4d21ef0193f595e9c7c04c071f01aa9d2ec5c100186?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: ce4a5f25-1c87-4f56-b473-ad50d345cc46)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/model.safetensors
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/1c8f7c8fd9b7c56a43be9844713bdd468b7a17ed5170311ce768adfc6e2d41ea?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: 1ea0419b-616a-4187-897a-6674383d8d31)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/tokenizer.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/8b03b9e079abc849bdd27d0942fa6a77f9e7836db188512be97e4b3d52f415a8?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: b7854860-0a02-4765-a42d-dcea118a343c)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/sentencepiece.bpe.model
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/f63b59f1a0edbaa6f315e4d21ef0193f595e9c7c04c071f01aa9d2ec5c100186?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: 822f2def-e62a-40aa-a25e-ad9ca1aabc45)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/model.safetensors
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/1c8f7c8fd9b7c56a43be9844713bdd468b7a17ed5170311ce768adfc6e2d41ea?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: d764a3a8-3350-4a66-ac4d-30681c5bbf6e)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/tokenizer.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/8b03b9e079abc849bdd27d0942fa6a77f9e7836db188512be97e4b3d52f415a8?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: 640c0b33-e974-4fc3-a0af-133ba2d020b9)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/sentencepiece.bpe.model
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/f63b59f1a0edbaa6f315e4d21ef0193f595e9c7c04c071f01aa9d2ec5c100186?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: 8ec4fee3-976c-4b36-9397-00ab59a96be5)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/model.safetensors
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/1c8f7c8fd9b7c56a43be9844713bdd468b7a17ed5170311ce768adfc6e2d41ea?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: 17963030-41ee-49de-8e7b-9174ba364aba)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/tokenizer.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/8b03b9e079abc849bdd27d0942fa6a77f9e7836db188512be97e4b3d52f415a8?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: d274b523-bdee-46c4-a13b-e54551dd676c)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/sentencepiece.bpe.model
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/f63b59f1a0edbaa6f315e4d21ef0193f595e9c7c04c071f01aa9d2ec5c100186?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: b65a8483-81d3-4ce9-b90f-ebe0b95bb101)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/model.safetensors
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/1c8f7c8fd9b7c56a43be9844713bdd468b7a17ed5170311ce768adfc6e2d41ea?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: e0a4f057-2432-41f0-8f89-b36335b21108)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/tokenizer.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/f63b59f1a0edbaa6f315e4d21ef0193f595e9c7c04c071f01aa9d2ec5c100186?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: af219ed9-5115-4f5e-bf24-15b0d135428f)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/model.safetensors
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/8b03b9e079abc849bdd27d0942fa6a77f9e7836db188512be97e4b3d52f415a8?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: 761cefb4-87ec-47fd-9c80-a9e5839f08fa)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/sentencepiece.bpe.model
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/1c8f7c8fd9b7c56a43be9844713bdd468b7a17ed5170311ce768adfc6e2d41ea?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: 157d470c-84bf-49be-9145-ceecd72787fa)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/tokenizer.json
+Retrying in 8s [Retry 5/5].
+
+Fetching 9 files:  67%|██████▋   | 6/9 [00:19<00:09,  3.33s/it]'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/f63b59f1a0edbaa6f315e4d21ef0193f595e9c7c04c071f01aa9d2ec5c100186?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: 0797b74f-c9cd-402e-8412-6682543ca150)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/model.safetensors
+
+Fetching 9 files:  78%|███████▊  | 7/9 [00:23<00:06,  3.42s/it]
+Fetching 9 files:  78%|███████▊  | 7/9 [00:23<00:06,  3.42s/it]
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/8b03b9e079abc849bdd27d0942fa6a77f9e7836db188512be97e4b3d52f415a8?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: 1924351b-e7c7-49fb-ba2c-89714d12435e)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/sentencepiece.bpe.model
+'(MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/1c8f7c8fd9b7c56a43be9844713bdd468b7a17ed5170311ce768adfc6e2d41ea?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: a46e77a0-00dd-4b08-b390-ea8d0b55ad52)')' thrown while requesting GET https://huggingface.co/intfloat/multilingual-e5-small/resolve/614241f622f53c4eeff9890bdc4f31cfecc418b3/tokenizer.json
+Traceback (most recent call last):
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 779, in urlopen
+    self._prepare_proxy(conn)
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1074, in _prepare_proxy
+    conn.connect()
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/urllib3/connection.py", line 844, in connect
+    self._tunnel()
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/http/client.py", line 1029, in _tunnel
+    raise OSError(f"Tunnel connection failed: {code} {message.strip()}")
+OSError: Tunnel connection failed: 403 Forbidden
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/f63b59f1a0edbaa6f315e4d21ef0193f595e9c7c04c071f01aa9d2ec5c100186?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/test-nlu/scripts/download_model.py", line 8, in <module>
+    a=p.parse_args();engine=Recommender('e5',a.model_id,a.revision)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/test-nlu/nlu/engine.py", line 35, in __init__
+    path=Path(snapshot_download(repo_id=model_id,revision=revision,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 332, in snapshot_download
+    thread_map(
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/tqdm/contrib/concurrent.py", line 191, in thread_map
+    return _executor_map(ThreadPoolExecutor, fn, *iterables, **tqdm_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/tqdm/contrib/concurrent.py", line 163, in _executor_map
+    return list(ex.map(
+           ^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 306, in _inner_hf_hub_download
+    return hf_hub_download(
+           ^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1014, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1175, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1742, in _download_to_tmp_and_move
+    http_get(
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 423, in http_get
+    r = _request_wrapper(
+        ^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 306, in _request_wrapper
+    response = http_backoff(method=method, url=url, **params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/huggingface_hub/utils/_http.py", line 326, in http_backoff
+    raise err
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/huggingface_hub/utils/_http.py", line 307, in http_backoff
+    response = session.request(method=method, url=url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/requests/sessions.py", line 805, in send
+    history = [resp for resp in gen]
+                                ^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/requests/sessions.py", line 292, in resolve_redirects
+    resp = self.send(
+           ^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/huggingface_hub/utils/_http.py", line 96, in send
+    return super().send(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/nlu-venv/lib/python3.12/site-packages/requests/adapters.py", line 723, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: (MaxRetryError("HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/649e84b72ccae3ea1f35fb8b/f63b59f1a0edbaa6f315e4d21ef0193f595e9c7c04c071f01aa9d2ec5c100186?[signed-query-redacted] (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"), '(Request ID: 0797b74f-c9cd-402e-8412-6682543ca150)')

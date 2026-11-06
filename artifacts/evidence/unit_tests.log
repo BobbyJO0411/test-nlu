@@ -1,0 +1,20 @@
+test_manual_file_flow_and_submission_gate (test_evaluation_files.EvaluationFileTests.test_manual_file_flow_and_submission_gate) ... ok
+test_missing_key_blocks_external_call (test_evaluation_files.LlmSelectorTests.test_missing_key_blocks_external_call) ... ok
+test_out_of_candidates_response_is_rejected (test_evaluation_files.LlmSelectorTests.test_out_of_candidates_response_is_rejected) ... ok
+test_functional_recommendation_and_input_validation (test_workflow.ApiTests.test_functional_recommendation_and_input_validation) ... ok
+test_baseline_predicts_without_gold_file (test_workflow.DataTests.test_baseline_predicts_without_gold_file) ... ok
+test_dataset_integrity_and_sources (test_workflow.DataTests.test_dataset_integrity_and_sources) ... ok
+test_e5_never_silently_falls_back (test_workflow.DataTests.test_e5_never_silently_falls_back) ... ok
+test_model_manifest_hash_failure_blocks_loading (test_workflow.DataTests.test_model_manifest_hash_failure_blocks_loading) ... ok
+test_all_fail_is_zero (test_workflow.MetricTests.test_all_fail_is_zero) ... ok
+test_all_success (test_workflow.MetricTests.test_all_success) ... ok
+test_conflicting_final_cannot_override_agreement (test_workflow.MetricTests.test_conflicting_final_cannot_override_agreement) ... ok
+test_disagreements_do_not_inflate_initial_agreement (test_workflow.MetricTests.test_disagreements_do_not_inflate_initial_agreement) ... ok
+test_duplicates_and_missing_ids_block (test_workflow.MetricTests.test_duplicates_and_missing_ids_block) ... ok
+test_incomplete_is_not_success (test_workflow.MetricTests.test_incomplete_is_not_success) ... ok
+test_unresolved_and_reasonless_are_blocked (test_workflow.MetricTests.test_unresolved_and_reasonless_are_blocked) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 5.693s
+
+OK

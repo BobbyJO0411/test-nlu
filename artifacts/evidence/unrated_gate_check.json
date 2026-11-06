@@ -1,0 +1,18 @@
+{
+  "status": "incomplete",
+  "total": 100,
+  "suitability_pct": null,
+  "agreement_pct": null,
+  "run_id": "20261014T025804Z-248d85de",
+  "ratings_sha256": "91d7e4ddea39ba4e0b1ab04f311e291bf4fa3e5c4f947277b28edb04d23a4040",
+  "expert_approval_record_present": false,
+  "evaluator_records_complete": false,
+  "embedding_backend": true,
+  "recorded_manual_provenance": false,
+  "questionnaire_complete": false,
+  "questionnaire_statistics": {},
+  "resolution_records_complete": true,
+  "agency_approval_record_present": false,
+  "submission_candidate": false,
+  "note": "Computes recorded judgments only; cannot authenticate identities, credentials or actual review. Agency approval and signatures remain necessary."
+}

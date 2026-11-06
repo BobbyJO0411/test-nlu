@@ -1,0 +1,14 @@
+{
+  "file_name": "상표심사기준 (3).pdf",
+  "sha256": "3eb9f532ccddad69813fc000cfe42f0735aba91ca60de9e670ccb8855bd53053",
+  "pdf_pages": 575,
+  "edition": "2025-12-10",
+  "source_scope": "Uploaded examination guidance, not an automatically current statute or fee schedule",
+  "source_review": "pending expert review; deadlines, fees and transitional rules require confirmation",
+  "dataset_limitations": [
+    "Synthetic questions; not actual customer transcripts",
+    "Templates and questions jointly authored; not an independent holdout",
+    "No practitioner or patent attorney approval yet",
+    "No preset performance or acceptance target"
+  ]
+}
