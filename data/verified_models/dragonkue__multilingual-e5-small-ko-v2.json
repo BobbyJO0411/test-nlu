@@ -1,0 +1,17 @@
+{
+  "model_id": "dragonkue/multilingual-e5-small-ko-v2",
+  "revision": "fcfc26bf355882620c48df58be112275bd756f50",
+  "upstream_verified_files": 10,
+  "files": {
+    "1_Pooling/config.json": "a19c83805e1ce4174f3fbfec4ac8d3b8dbae0c958f8fd51b80937eb33e0c5335",
+    "config.json": "d99cc57db7529a5b6921f38d899dafad5bb829e21078900c8ba2c4ae9d141acb",
+    "config_sentence_transformers.json": "7e91538623973218cf7894dea35429cad353cb0470a7932dc3b16845596fc6a2",
+    "model.safetensors": "9794f247caf80caf54b5a04d391c932ba6260cf20bd16fba3892ce2d8f5784ec",
+    "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+    "README.md": "480695d2e97a9886d6c1a95fa99ccc24c98816f24206b6e3299351899e59a66a",
+    "sentence_bert_config.json": "ec8e29d6dcb61b611b7d3fdd2982c4524e6ad985959fa7194eacfb655a8d0d51",
+    "special_tokens_map.json": "38d989b0fdad0fec0c67c14b1f3c8b68184022cf6d4adc5444526ced8653f738",
+    "tokenizer.json": "cd98e5698b201ba914efb8c18b6709fa8735ab71dcad8d2b431e52e8bf68d932",
+    "tokenizer_config.json": "088b1b60e1fbc7fbdbb3d4bc84922b388692c7089d4607a9909b46a549ebd57e"
+  }
+}

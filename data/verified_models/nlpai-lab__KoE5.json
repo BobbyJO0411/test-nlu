@@ -1,0 +1,17 @@
+{
+  "model_id": "nlpai-lab/KoE5",
+  "revision": "237b580aea358e3042fcf5baf78124c33c3afd16",
+  "upstream_verified_files": 10,
+  "files": {
+    "1_Pooling/config.json": "4e103b8e2a31573ea88570523c2db4f13d34e09a26333e8a889268ed907b3822",
+    "2_Normalize/__init__": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "config.json": "c50c29201efbf8c199ad6c614ac788bddfee4e0194a7d9194949c22773d34f21",
+    "config_sentence_transformers.json": "08ba1c53c65285d367fc5047116e5ec94b35698a4ee2c88545a3d2431f9b3bd3",
+    "model.safetensors": "97693a2aeaeae9ecaac5fc68c5d27007dd1604d667ccbc61a32a52a9035cca67",
+    "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+    "README.md": "800100c04925a139223e34d820be49a3aa0e2d4ee80953aa24f9561072e96d57",
+    "special_tokens_map.json": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835",
+    "tokenizer.json": "883b037111086fd4dfebbbc9b7cee11e1517b5e0c0514879478661440f137085",
+    "tokenizer_config.json": "62a5ba9846d613fa26eba6cb75181b3d35bc832e2e8db3f5fa4a384d79d31b36"
+  }
+}

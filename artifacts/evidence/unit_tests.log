@@ -1,6 +1,17 @@
+test_majority_flow_with_blinded_third_rater (test_evaluation_files.EvaluationFileTests.test_majority_flow_with_blinded_third_rater) ... ok
 test_manual_file_flow_and_submission_gate (test_evaluation_files.EvaluationFileTests.test_manual_file_flow_and_submission_gate) ... ok
 test_missing_key_blocks_external_call (test_evaluation_files.LlmSelectorTests.test_missing_key_blocks_external_call) ... ok
 test_out_of_candidates_response_is_rejected (test_evaluation_files.LlmSelectorTests.test_out_of_candidates_response_is_rejected) ... ok
+test_consensus_still_requires_reason (test_improvements.DecisionRuleTests.test_consensus_still_requires_reason) ... ok
+test_invalid_rule (test_improvements.DecisionRuleTests.test_invalid_rule) ... ok
+test_majority_cannot_be_overridden (test_improvements.DecisionRuleTests.test_majority_cannot_be_overridden) ... ok
+test_majority_requires_third_rater_on_disagreements (test_improvements.DecisionRuleTests.test_majority_requires_third_rater_on_disagreements) ... ok
+test_three_rater_statistics_when_c_rates_everything (test_improvements.DecisionRuleTests.test_three_rater_statistics_when_c_rates_everything) ... ok
+test_tuning_and_enrichment_data_are_separate_from_evaluation_set (test_improvements.LeakageTests.test_tuning_and_enrichment_data_are_separate_from_evaluation_set) ... ok
+test_masking_dedup_and_stratified_sampling (test_improvements.RealQueryPreparationTests.test_masking_dedup_and_stratified_sampling) ... ok
+test_multiview_hybrid_scores_and_metadata (test_improvements.RetrievalTests.test_multiview_hybrid_scores_and_metadata) ... ok
+test_tune_uses_dev_set_only (test_improvements.RetrievalTests.test_tune_uses_dev_set_only) ... ok
+test_hash_mismatch_and_unlisted_files_are_rejected (test_improvements.SnapshotVerificationTests.test_hash_mismatch_and_unlisted_files_are_rejected) ... ok
 test_functional_recommendation_and_input_validation (test_workflow.ApiTests.test_functional_recommendation_and_input_validation) ... ok
 test_baseline_predicts_without_gold_file (test_workflow.DataTests.test_baseline_predicts_without_gold_file) ... ok
 test_dataset_integrity_and_sources (test_workflow.DataTests.test_dataset_integrity_and_sources) ... ok
@@ -13,8 +24,5 @@ test_disagreements_do_not_inflate_initial_agreement (test_workflow.MetricTests.t
 test_duplicates_and_missing_ids_block (test_workflow.MetricTests.test_duplicates_and_missing_ids_block) ... ok
 test_incomplete_is_not_success (test_workflow.MetricTests.test_incomplete_is_not_success) ... ok
 test_unresolved_and_reasonless_are_blocked (test_workflow.MetricTests.test_unresolved_and_reasonless_are_blocked) ... ok
-
-----------------------------------------------------------------------
-Ran 15 tests in 5.693s
-
+Ran 26 tests in 71.491s
 OK

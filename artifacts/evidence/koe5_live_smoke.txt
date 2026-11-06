@@ -1,0 +1,5 @@
+health ready nlpai-lab/KoE5 237b580aea358e3042fcf5baf78124c33c3afd16 1024 {'strategy': 'multiview_hybrid', 'alpha': 0.75, 'beta': 0.3, 'view_count': 150, 'retrieval_config_sha256': 'd7b1d8868453ec21e5444742e18046132fa6c2160334007d78451fc2def2bea3', 'formula': 'passage_only: cos(q,passage) | multiview_hybrid: alpha*max cos(q,question views)+(1-alpha)*cos(q,passage)+beta*max char-tfidf'}
+200 상표 의견제출통지서를 받았는데 최종 거절인가요? -> T020 ['T020', 'T021', 'T023'] 477.112 ms
+200 상표 출원 수수료가 정확히 얼마인가요? -> T025 ['T025', 'T001', 'T027'] 388.211 ms
+200 소리도 상표가 되나요? -> T027 ['T027', 'T007', 'T019'] 370.351 ms
+blank 422 top_k31 422
