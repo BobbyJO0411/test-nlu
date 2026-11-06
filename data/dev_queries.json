@@ -1,0 +1,812 @@
+[
+  {
+    "dev_id": "D001",
+    "query": "출원 넣은 지 한 달 됐는데 앞으로 뭐가 남았는지 단계별로 설명해 주세요",
+    "expected_template_ids": [
+      "T001"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D002",
+    "query": "심사 끝나면 바로 등록되는 거 아닌가요? 공고라는 게 왜 있죠?",
+    "expected_template_ids": [
+      "T001"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D003",
+    "query": "등록료는 언제 내야 하고 그 전에 거치는 절차가 뭔가요?",
+    "expected_template_ids": [
+      "T001"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D004",
+    "query": "카페 오픈은 내년인데 가게 이름을 지금 출원해도 문제없을까요?",
+    "expected_template_ids": [
+      "T002"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D005",
+    "query": "지정상품을 많이 적었더니 실제로 쓸 건지 증명하래요. 어떻게 해야 하나요?",
+    "expected_template_ids": [
+      "T002"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D006",
+    "query": "사용하지도 않는 상표를 출원하면 거절되나요?",
+    "expected_template_ids": [
+      "T002"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D007",
+    "query": "온라인 쇼핑몰 운영하는데 상표 출원 시 어떤 상품명을 적어야 할지 모르겠어요",
+    "expected_template_ids": [
+      "T003"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D008",
+    "query": "같은 류면 다 같이 보호되니까 류만 적으면 되나요?",
+    "expected_template_ids": [
+      "T003"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D009",
+    "query": "상품 고시 명칭 말고 제가 부르는 이름으로 지정상품을 써도 되나요?",
+    "expected_template_ids": [
+      "T003"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D010",
+    "query": "비용 아끼려고 상표 세 개를 출원서 하나에 넣고 싶은데 가능할까요?",
+    "expected_template_ids": [
+      "T004"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D011",
+    "query": "여러 류를 하나의 출원에 지정하는 거랑 여러 상표를 하나에 넣는 거랑 뭐가 달라요?",
+    "expected_template_ids": [
+      "T004"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D012",
+    "query": "디자인이 조금씩 다른 로고 시안 두 개를 한 출원에 같이 첨부했어요. 괜찮나요?",
+    "expected_template_ids": [
+      "T004"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D013",
+    "query": "출원서에 로고 글자 하나를 잘못 넣었어요. 나중에 수정해도 되나요?",
+    "expected_template_ids": [
+      "T005"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D014",
+    "query": "지정상품 일부를 빼고 싶은데 보정으로 가능할까요?",
+    "expected_template_ids": [
+      "T005"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D015",
+    "query": "출원공고 이후에도 보정할 수 있는지, 기간이 정해져 있나요?",
+    "expected_template_ids": [
+      "T005"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D016",
+    "query": "화장품으로 등록받은 상표를 이제 향수에도 쓰고 싶은데 기존 등록에 추가할 방법이 있나요?",
+    "expected_template_ids": [
+      "T006"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D017",
+    "query": "추가등록한 상품의 상표권 만료일은 언제인가요?",
+    "expected_template_ids": [
+      "T006"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D018",
+    "query": "이미 등록된 상표의 지정상품 범위를 넓히는 절차가 궁금해요",
+    "expected_template_ids": [
+      "T006"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D019",
+    "query": "커피 전문점에서 '커피'라는 단어만 상표로 출원하면 어떻게 되나요?",
+    "expected_template_ids": [
+      "T007"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D020",
+    "query": "누구나 그 물건을 부르는 이름인데 저희가 먼저 출원하면 독점 가능할까요?",
+    "expected_template_ids": [
+      "T007"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D021",
+    "query": "보통명칭에 로고 도안을 붙이면 등록 가능성이 있나요?",
+    "expected_template_ids": [
+      "T007"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D022",
+    "query": "'천연꿀'이라는 이름으로 꿀 상표를 출원하려고 해요",
+    "expected_template_ids": [
+      "T008"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D023",
+    "query": "제품 품질을 자랑하는 단어로 상표를 만들면 식별력이 없다는데 왜인가요?",
+    "expected_template_ids": [
+      "T008"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D024",
+    "query": "암시적인 표현과 직접 설명하는 표현은 어떻게 다르게 보나요?",
+    "expected_template_ids": [
+      "T008"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D025",
+    "query": "'제주'만 단독으로 쓴 상표를 귤 상품에 출원하고 싶어요",
+    "expected_template_ids": [
+      "T009"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D026",
+    "query": "도시 이름에 다른 단어를 결합하면 등록 가능성이 있나요?",
+    "expected_template_ids": [
+      "T009"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D027",
+    "query": "지도 모양만 그린 로고도 상표가 되나요?",
+    "expected_template_ids": [
+      "T009"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D028",
+    "query": "'박상점'이라는 이름으로 상표 출원하려는데 가능할까요?",
+    "expected_template_ids": [
+      "T010"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D029",
+    "query": "법인 등기로 상호를 등록했으니 상표권도 생긴 거죠?",
+    "expected_template_ids": [
+      "T010"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D030",
+    "query": "흔한 성씨에 독특한 디자인을 넣으면 등록될 수 있나요?",
+    "expected_template_ids": [
+      "T010"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D031",
+    "query": "'A1' 같은 짧은 문자 조합을 상표로 출원하려는데 괜찮을까요?",
+    "expected_template_ids": [
+      "T011"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D032",
+    "query": "동그라미 하나만 있는 로고도 보호받을 수 있나요?",
+    "expected_template_ids": [
+      "T011"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D033",
+    "query": "단순한 글자라도 특이하게 도안하면 등록되나요?",
+    "expected_template_ids": [
+      "T011"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D034",
+    "query": "20년 동안 지역에서 써온 가게 이름인데 성질표시라고 거절됐어요. 사용 기간으로 다툴 수 있나요?",
+    "expected_template_ids": [
+      "T012"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D035",
+    "query": "소비자 인지도 조사 결과도 식별력 증거가 되나요?",
+    "expected_template_ids": [
+      "T012"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D036",
+    "query": "실제로 쓰는 로고와 출원한 로고가 조금 다르면 사용 증거로 인정되나요?",
+    "expected_template_ids": [
+      "T012"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D037",
+    "query": "제 상표가 다른 회사 이름이랑 한 글자 차이인데 유사하다고 볼까요?",
+    "expected_template_ids": [
+      "T013"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D038",
+    "query": "로고 디자인을 완전히 바꾸면 같은 단어여도 비유사가 되나요?",
+    "expected_template_ids": [
+      "T013"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D039",
+    "query": "뜻이 같은 영어와 한글 상표는 비슷하다고 보나요?",
+    "expected_template_ids": [
+      "T013"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D040",
+    "query": "제 상품은 25류고 상대는 18류인데 그럼 충돌 걱정 안 해도 되죠?",
+    "expected_template_ids": [
+      "T014"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D041",
+    "query": "신발과 가방은 유사 상품으로 보나요? 판단 기준이 궁금해요",
+    "expected_template_ids": [
+      "T014"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D042",
+    "query": "유사군코드만 다르면 등록에 문제없나요?",
+    "expected_template_ids": [
+      "T014"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D043",
+    "query": "키프리스에서 제 브랜드랑 같은 이름이 다른 업종에 등록된 걸 봤어요. 출원해도 될까요?",
+    "expected_template_ids": [
+      "T015"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D044",
+    "query": "먼저 등록된 상표가 있다는 이유로 거절이유를 받았는데 지정상품을 줄이면 해결되나요?",
+    "expected_template_ids": [
+      "T015"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D045",
+    "query": "선등록상표 권리가 아직 살아 있는지도 확인해야 하나요?",
+    "expected_template_ids": [
+      "T015"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D046",
+    "query": "비슷한 상표 주인이 써도 된다고 허락해 줬어요. 그걸로 거절이유가 없어지나요?",
+    "expected_template_ids": [
+      "T016"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D047",
+    "query": "선등록권자와 합의서를 쓰면 동일 상품에도 등록받을 수 있나요?",
+    "expected_template_ids": [
+      "T016"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D048",
+    "query": "등록 동의서를 냈는데 다른 거절이유도 같이 사라지나요?",
+    "expected_template_ids": [
+      "T016"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D049",
+    "query": "세계적으로 유명한 자동차 브랜드 이름으로 떡볶이 가게 상표를 내면 어떻게 되나요?",
+    "expected_template_ids": [
+      "T017"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D050",
+    "query": "해외에서 유명한 브랜드가 국내엔 아직 등록 안 돼 있던데 먼저 출원해도 되나요?",
+    "expected_template_ids": [
+      "T017"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D051",
+    "query": "유명 캐릭터 이름을 살짝 바꿔서 의류에 쓰려고 해요",
+    "expected_template_ids": [
+      "T017"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D052",
+    "query": "국산 원료를 쓰지만 '이탈리아'라는 단어를 넣은 상표로 파스타 소스를 팔려고 해요",
+    "expected_template_ids": [
+      "T018"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D053",
+    "query": "'무설탕'이라는 상표를 설탕이 든 과자에 쓰면 어떻게 되나요?",
+    "expected_template_ids": [
+      "T018"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D054",
+    "query": "상표 옆에 작게 설명을 달면 오인 문제가 없어지나요?",
+    "expected_template_ids": [
+      "T018"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D055",
+    "query": "손잡이가 잘 잡히도록 만든 병 모양을 입체상표로 출원하려 해요",
+    "expected_template_ids": [
+      "T019"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D056",
+    "query": "소비자들이 다 알아보는 제품 모양이면 기능적이어도 등록되나요?",
+    "expected_template_ids": [
+      "T019"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D057",
+    "query": "부품이 맞물리는 구조 형상을 상표로 보호받을 수 있나요?",
+    "expected_template_ids": [
+      "T019"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D058",
+    "query": "특허청에서 거절이유가 있다는 통지가 왔는데 아직 기회가 있는 건가요?",
+    "expected_template_ids": [
+      "T020"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D059",
+    "query": "의견제출통지서에 식별력 문제라고 적혀 있어요. 어떤 서류를 준비하죠?",
+    "expected_template_ids": [
+      "T020"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D060",
+    "query": "통지서에 적힌 제출기간을 넘기지 않으려면 뭘 확인해야 하나요?",
+    "expected_template_ids": [
+      "T020"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D061",
+    "query": "결국 상표가 거절결정됐다는 결정서를 받았어요. 다음 단계는?",
+    "expected_template_ids": [
+      "T021"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D062",
+    "query": "거절결정 후에 예전 의견서를 그대로 다시 내면 되나요?",
+    "expected_template_ids": [
+      "T021"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D063",
+    "query": "재심사와 심판 중 어떤 걸 선택해야 하나요?",
+    "expected_template_ids": [
+      "T021"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D064",
+    "query": "다음 달 제품 출시라 상표 심사가 빨리 끝나야 해요. 방법이 있을까요?",
+    "expected_template_ids": [
+      "T022"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D065",
+    "query": "우선심사 수수료만 내면 바로 등록되나요?",
+    "expected_template_ids": [
+      "T022"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D066",
+    "query": "우선심사 신청할 때 어떤 증빙이 필요하죠?",
+    "expected_template_ids": [
+      "T022"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D067",
+    "query": "제 상표랑 비슷한 게 출원공고에 올라왔어요. 어떻게 막을 수 있나요?",
+    "expected_template_ids": [
+      "T023"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D068",
+    "query": "공고된 타인 상표에 이의를 제기하려면 무슨 증거가 필요한가요?",
+    "expected_template_ids": [
+      "T023"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D069",
+    "query": "등록된 뒤에는 이의신청 말고 다른 절차를 써야 하나요?",
+    "expected_template_ids": [
+      "T023"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D070",
+    "query": "경쟁사가 우리 상표랑 비슷한 걸 출원했는데 아직 심사 중이에요. 심사관에게 자료를 낼 수 있나요?",
+    "expected_template_ids": [
+      "T024"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D071",
+    "query": "정보제공하면 그 출원은 꼭 거절되나요?",
+    "expected_template_ids": [
+      "T024"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D072",
+    "query": "이름을 밝히지 않고 심사관에게 증거를 보낼 수 있나요?",
+    "expected_template_ids": [
+      "T024"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D073",
+    "query": "상표 하나 등록하는 데 총 얼마 정도 드나요? 정확한 금액이 궁금해요",
+    "expected_template_ids": [
+      "T025"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D074",
+    "query": "변리사 수임료랑 특허청 수수료는 다른 건가요?",
+    "expected_template_ids": [
+      "T025"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D075",
+    "query": "소상공인이면 출원료를 할인받을 수 있나요?",
+    "expected_template_ids": [
+      "T025"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D076",
+    "query": "중국에 상표를 먼저 냈어요. 한국 출원 때 그 날짜를 쓸 수 있나요?",
+    "expected_template_ids": [
+      "T026"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D077",
+    "query": "우선권 증명서류는 어떤 걸 내야 하나요?",
+    "expected_template_ids": [
+      "T026"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D078",
+    "query": "해외에서 먼저 출원했으면 한국에서도 자동으로 보호되나요?",
+    "expected_template_ids": [
+      "T026"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D079",
+    "query": "저희 앱 실행 알림음을 상표로 보호받고 싶어요",
+    "expected_template_ids": [
+      "T027"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D080",
+    "query": "소리상표는 어떻게 시각적으로 표현해서 내나요?",
+    "expected_template_ids": [
+      "T027"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D081",
+    "query": "멜로디 상표도 식별력 심사를 받나요?",
+    "expected_template_ids": [
+      "T027"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D082",
+    "query": "횟집마다 다 쓰는 문구를 우리 가게 상표로 출원하면 어떻게 되나요?",
+    "expected_template_ids": [
+      "T028"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D083",
+    "query": "업계 관행상 누구나 붙이는 이름인데 독점할 수 있을까요?",
+    "expected_template_ids": [
+      "T028"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D084",
+    "query": "특정 지역 업계에서만 흔히 쓰는 표시도 등록이 제한되나요?",
+    "expected_template_ids": [
+      "T028"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D085",
+    "query": "식품으로 등록했는데 다른 회사가 같은 이름으로 옷을 팔아요. 막을 수 있나요?",
+    "expected_template_ids": [
+      "T029"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D086",
+    "query": "등록만 하면 그 이름은 제 것이니까 어디서든 못 쓰게 할 수 있죠?",
+    "expected_template_ids": [
+      "T029"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D087",
+    "query": "상표권 효력이 미치지 않는 경우도 있나요?",
+    "expected_template_ids": [
+      "T029"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D088",
+    "query": "브랜드 이름 하나 정했는데 등록될지 바로 알려주세요",
+    "expected_template_ids": [
+      "T030"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D089",
+    "query": "등록 가능성 상담을 받으려면 무엇을 준비해 가야 하나요?",
+    "expected_template_ids": [
+      "T030"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  },
+  {
+    "dev_id": "D090",
+    "query": "통지서 내용은 없고 상표명만 있는데 해결될 수 있을까요?",
+    "expected_template_ids": [
+      "T030"
+    ],
+    "origin": "synthetic_authored",
+    "split": "development_tuning_only"
+  }
+]

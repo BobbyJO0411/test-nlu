@@ -1,0 +1,209 @@
+{
+  "model_id": "nlpai-lab/KoE5",
+  "revision": "237b580aea358e3042fcf5baf78124c33c3afd16",
+  "dev_path": "data/dev_queries.json",
+  "dev_sha256": "28ebd3d304006381c34c849b3b2bdefb6d3ab8c06c3308b3d3aa7881b7751230",
+  "template_queries_sha256": "9e6bd259585462eb5dc720528eab05504bfa4b245e356b2d57fdbf5139a43ab1",
+  "grid": [
+    {
+      "strategy": "passage_only",
+      "alpha": 0.0,
+      "beta": 0.0,
+      "top1": 63,
+      "top3": 77,
+      "mrr": 0.791176,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.0,
+      "beta": 0.0,
+      "top1": 63,
+      "top3": 77,
+      "mrr": 0.791176,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.0,
+      "beta": 0.1,
+      "top1": 64,
+      "top3": 79,
+      "mrr": 0.801761,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.0,
+      "beta": 0.2,
+      "top1": 63,
+      "top3": 79,
+      "mrr": 0.804227,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.0,
+      "beta": 0.3,
+      "top1": 66,
+      "top3": 80,
+      "mrr": 0.82107,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.0,
+      "top1": 64,
+      "top3": 79,
+      "mrr": 0.807668,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.1,
+      "top1": 64,
+      "top3": 80,
+      "mrr": 0.810182,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.2,
+      "top1": 65,
+      "top3": 82,
+      "mrr": 0.816324,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.3,
+      "top1": 67,
+      "top3": 83,
+      "mrr": 0.830283,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.5,
+      "beta": 0.0,
+      "top1": 64,
+      "top3": 82,
+      "mrr": 0.813894,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.5,
+      "beta": 0.1,
+      "top1": 65,
+      "top3": 82,
+      "mrr": 0.822399,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.5,
+      "beta": 0.2,
+      "top1": 64,
+      "top3": 83,
+      "mrr": 0.815918,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.5,
+      "beta": 0.3,
+      "top1": 64,
+      "top3": 82,
+      "mrr": 0.814907,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.0,
+      "top1": 63,
+      "top3": 81,
+      "mrr": 0.805556,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.1,
+      "top1": 65,
+      "top3": 82,
+      "mrr": 0.819735,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.2,
+      "top1": 64,
+      "top3": 83,
+      "mrr": 0.816927,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.3,
+      "top1": 67,
+      "top3": 84,
+      "mrr": 0.836049,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 1.0,
+      "beta": 0.0,
+      "top1": 63,
+      "top3": 76,
+      "mrr": 0.798616,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 1.0,
+      "beta": 0.1,
+      "top1": 64,
+      "top3": 78,
+      "mrr": 0.80638,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 1.0,
+      "beta": 0.2,
+      "top1": 66,
+      "top3": 79,
+      "mrr": 0.818603,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 1.0,
+      "beta": 0.3,
+      "top1": 64,
+      "top3": 81,
+      "mrr": 0.809343,
+      "total": 90
+    }
+  ],
+  "selected": {
+    "strategy": "multiview_hybrid",
+    "alpha": 0.75,
+    "beta": 0.3,
+    "top1": 67,
+    "top3": 84,
+    "mrr": 0.836049,
+    "total": 90
+  },
+  "created_utc": "2026-11-06T05:39:51.588047+00:00",
+  "note": "Development tuning only; evaluation questions were not loaded."
+}

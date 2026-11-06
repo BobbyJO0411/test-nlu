@@ -1,0 +1,209 @@
+{
+  "model_id": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "dev_path": "data/dev_queries.json",
+  "dev_sha256": "28ebd3d304006381c34c849b3b2bdefb6d3ab8c06c3308b3d3aa7881b7751230",
+  "template_queries_sha256": "9e6bd259585462eb5dc720528eab05504bfa4b245e356b2d57fdbf5139a43ab1",
+  "grid": [
+    {
+      "strategy": "passage_only",
+      "alpha": 0.0,
+      "beta": 0.0,
+      "top1": 59,
+      "top3": 70,
+      "mrr": 0.727794,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.0,
+      "beta": 0.0,
+      "top1": 59,
+      "top3": 70,
+      "mrr": 0.727794,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.0,
+      "beta": 0.1,
+      "top1": 59,
+      "top3": 72,
+      "mrr": 0.748237,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.0,
+      "beta": 0.2,
+      "top1": 61,
+      "top3": 75,
+      "mrr": 0.763793,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.0,
+      "beta": 0.3,
+      "top1": 60,
+      "top3": 74,
+      "mrr": 0.756602,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.0,
+      "top1": 60,
+      "top3": 72,
+      "mrr": 0.753248,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.1,
+      "top1": 63,
+      "top3": 76,
+      "mrr": 0.782827,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.2,
+      "top1": 61,
+      "top3": 77,
+      "mrr": 0.771629,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.3,
+      "top1": 60,
+      "top3": 76,
+      "mrr": 0.763137,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.5,
+      "beta": 0.0,
+      "top1": 57,
+      "top3": 75,
+      "mrr": 0.745695,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.5,
+      "beta": 0.1,
+      "top1": 62,
+      "top3": 77,
+      "mrr": 0.781322,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.5,
+      "beta": 0.2,
+      "top1": 60,
+      "top3": 78,
+      "mrr": 0.766499,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.5,
+      "beta": 0.3,
+      "top1": 59,
+      "top3": 77,
+      "mrr": 0.758828,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.0,
+      "top1": 56,
+      "top3": 74,
+      "mrr": 0.732529,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.1,
+      "top1": 61,
+      "top3": 75,
+      "mrr": 0.772141,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.2,
+      "top1": 62,
+      "top3": 78,
+      "mrr": 0.78261,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.3,
+      "top1": 60,
+      "top3": 77,
+      "mrr": 0.761532,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 1.0,
+      "beta": 0.0,
+      "top1": 52,
+      "top3": 67,
+      "mrr": 0.690751,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 1.0,
+      "beta": 0.1,
+      "top1": 61,
+      "top3": 71,
+      "mrr": 0.75884,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 1.0,
+      "beta": 0.2,
+      "top1": 60,
+      "top3": 72,
+      "mrr": 0.757253,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 1.0,
+      "beta": 0.3,
+      "top1": 58,
+      "top3": 74,
+      "mrr": 0.747707,
+      "total": 90
+    }
+  ],
+  "selected": {
+    "strategy": "multiview_hybrid",
+    "alpha": 0.25,
+    "beta": 0.1,
+    "top1": 63,
+    "top3": 76,
+    "mrr": 0.782827,
+    "total": 90
+  },
+  "created_utc": "2026-11-06T05:33:35.586658+00:00",
+  "note": "Development tuning only; evaluation questions were not loaded."
+}

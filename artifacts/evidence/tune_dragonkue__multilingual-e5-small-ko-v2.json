@@ -1,0 +1,209 @@
+{
+  "model_id": "dragonkue/multilingual-e5-small-ko-v2",
+  "revision": "fcfc26bf355882620c48df58be112275bd756f50",
+  "dev_path": "data/dev_queries.json",
+  "dev_sha256": "28ebd3d304006381c34c849b3b2bdefb6d3ab8c06c3308b3d3aa7881b7751230",
+  "template_queries_sha256": "9e6bd259585462eb5dc720528eab05504bfa4b245e356b2d57fdbf5139a43ab1",
+  "grid": [
+    {
+      "strategy": "passage_only",
+      "alpha": 0.0,
+      "beta": 0.0,
+      "top1": 58,
+      "top3": 69,
+      "mrr": 0.741724,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.0,
+      "beta": 0.0,
+      "top1": 58,
+      "top3": 69,
+      "mrr": 0.741724,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.0,
+      "beta": 0.1,
+      "top1": 59,
+      "top3": 73,
+      "mrr": 0.75242,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.0,
+      "beta": 0.2,
+      "top1": 62,
+      "top3": 74,
+      "mrr": 0.773173,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.0,
+      "beta": 0.3,
+      "top1": 63,
+      "top3": 76,
+      "mrr": 0.781712,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.0,
+      "top1": 61,
+      "top3": 73,
+      "mrr": 0.772883,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.1,
+      "top1": 65,
+      "top3": 76,
+      "mrr": 0.800853,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.2,
+      "top1": 64,
+      "top3": 77,
+      "mrr": 0.7961,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.3,
+      "top1": 63,
+      "top3": 78,
+      "mrr": 0.788936,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.5,
+      "beta": 0.0,
+      "top1": 61,
+      "top3": 76,
+      "mrr": 0.777315,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.5,
+      "beta": 0.1,
+      "top1": 64,
+      "top3": 76,
+      "mrr": 0.7933,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.5,
+      "beta": 0.2,
+      "top1": 64,
+      "top3": 77,
+      "mrr": 0.793726,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.5,
+      "beta": 0.3,
+      "top1": 64,
+      "top3": 79,
+      "mrr": 0.803325,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.0,
+      "top1": 58,
+      "top3": 74,
+      "mrr": 0.749771,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.1,
+      "top1": 59,
+      "top3": 74,
+      "mrr": 0.759633,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.2,
+      "top1": 64,
+      "top3": 78,
+      "mrr": 0.794849,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.3,
+      "top1": 66,
+      "top3": 79,
+      "mrr": 0.808174,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 1.0,
+      "beta": 0.0,
+      "top1": 56,
+      "top3": 69,
+      "mrr": 0.729065,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 1.0,
+      "beta": 0.1,
+      "top1": 58,
+      "top3": 72,
+      "mrr": 0.744876,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 1.0,
+      "beta": 0.2,
+      "top1": 61,
+      "top3": 74,
+      "mrr": 0.76772,
+      "total": 90
+    },
+    {
+      "strategy": "multiview_hybrid",
+      "alpha": 1.0,
+      "beta": 0.3,
+      "top1": 62,
+      "top3": 75,
+      "mrr": 0.776269,
+      "total": 90
+    }
+  ],
+  "selected": {
+    "strategy": "multiview_hybrid",
+    "alpha": 0.75,
+    "beta": 0.3,
+    "top1": 66,
+    "top3": 79,
+    "mrr": 0.808174,
+    "total": 90
+  },
+  "created_utc": "2026-11-06T05:34:15.942647+00:00",
+  "note": "Development tuning only; evaluation questions were not loaded."
+}

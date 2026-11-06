@@ -45,6 +45,38 @@ class EvaluationFileTests(unittest.TestCase):
             self.assertIsNone(master['실평가집계_빈양식']['B2'].value)
             self.assertIn('IF',master['실평가요약']['B4'].value)
 
+    def test_majority_flow_with_blinded_third_rater(self):
+        with tempfile.TemporaryDirectory() as temp:
+            temp=Path(temp)
+            run=self.command('-m','nlu.cli','run','--backend','baseline','--output',str(temp/'runs'))
+            self.assertEqual(run.returncode,0,run.stderr)
+            run_dir=Path(json.loads(run.stdout)['run_dir']);out=temp/'package'
+            self.assertEqual(self.command('scripts/build_deliverables.py','--run-dir',str(run_dir),'--out',str(out)).returncode,0)
+            def fill(file,person,rows,vote):
+                wb=load_workbook(file);ws=wb['평가']
+                for row in rows:
+                    for col in range(5,10):ws.cell(row,col,4)
+                    ws.cell(row,10,vote(row));ws.cell(row,11,'TEST_ONLY_SYNTHETIC_RECORD')
+                    ws.cell(row,12,'TEST_ONLY_'+person);ws.cell(row,13,'TEST_ONLY_ROLE');ws.cell(row,14,'TEST_ONLY_DATE')
+                wb.save(file)
+            fill(out/'평가자A_실평가.xlsx','A',range(2,102),lambda r:'success')
+            fill(out/'평가자B_실평가.xlsx','B',range(2,102),lambda r:'failure' if r<=6 else 'success')
+            tie=temp/'C.xlsx'
+            made=self.command('scripts/make_tiebreak_workbook.py','--run-dir',str(run_dir),'--a',str(out/'평가자A_실평가.xlsx'),'--b',str(out/'평가자B_실평가.xlsx'),'--output',str(tie))
+            self.assertEqual(made.returncode,0,made.stderr);self.assertEqual(json.loads(made.stdout)['disagreements'],5)
+            wb=load_workbook(tie);self.assertEqual(wb['평가'].max_row,6)
+            self.assertTrue(all(wb['평가'].cell(r,10).value in (None,'') for r in range(2,7)),'C must not see votes')
+            base=['scripts/collect_ratings.py','--run-dir',str(run_dir),'--a',str(out/'평가자A_실평가.xlsx'),'--b',str(out/'평가자B_실평가.xlsx'),'--output',str(temp/'ratings.csv'),'--decision-rule','majority']
+            self.assertNotEqual(self.command(*base).returncode,0,'majority without C must fail')
+            fill(tie,'C',range(2,7),lambda r:'failure' if r==2 else 'success')
+            collect=self.command(*base,'--c',str(tie));self.assertEqual(collect.returncode,0,collect.stderr)
+            score=self.command('-m','nlu.cli','score','--run-dir',str(run_dir),'--ratings',str(temp/'ratings.csv'),'--decision-rule','majority','--output',str(temp/'m.json'))
+            self.assertEqual(score.returncode,0,score.stderr)
+            m=json.loads((temp/'m.json').read_text(encoding='utf-8'))
+            self.assertEqual(m['agreement_pct'],95);self.assertEqual(m['success_count'],99)
+            self.assertEqual(m['resolved_by_majority'],5);self.assertEqual(m['iso_25023']['X_pct'],99)
+            self.assertTrue(m['resolution_records_complete']);self.assertFalse(m['submission_candidate'])
+
 class LlmSelectorTests(unittest.TestCase):
     def test_out_of_candidates_response_is_rejected(self):
         from unittest.mock import patch,Mock

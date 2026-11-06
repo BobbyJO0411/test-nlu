@@ -1,0 +1,44 @@
+{
+  "default_model_id": "nlpai-lab/KoE5",
+  "models": {
+    "nlpai-lab/KoE5": {
+      "role": "primary_e5_ko",
+      "revision": "237b580aea358e3042fcf5baf78124c33c3afd16",
+      "base_model": "intfloat/multilingual-e5-large",
+      "korean_fine_tuned": true,
+      "license": "mit",
+      "dimension": 1024,
+      "max_seq_length": 512,
+      "query_prefix": "query: ",
+      "passage_prefix": "passage: ",
+      "model_card_url": "https://huggingface.co/nlpai-lab/KoE5/blob/237b580aea358e3042fcf5baf78124c33c3afd16/README.md",
+      "note": "Korean fine-tune of multilingual-e5-large (ko-triplet-v1.0). Candidate for the test plan's 'E5-Ko' requirement; agency acceptance still required."
+    },
+    "dragonkue/multilingual-e5-small-ko-v2": {
+      "role": "comparison_small_korean",
+      "revision": "fcfc26bf355882620c48df58be112275bd756f50",
+      "base_model": "intfloat/multilingual-e5-small",
+      "korean_fine_tuned": true,
+      "license": "apache-2.0",
+      "dimension": 384,
+      "max_seq_length": 512,
+      "query_prefix": "query: ",
+      "passage_prefix": "passage: ",
+      "model_card_url": "https://huggingface.co/dragonkue/multilingual-e5-small-ko-v2/blob/fcfc26bf355882620c48df58be112275bd756f50/README.md",
+      "note": "Lightweight Korean fine-tune used for comparison only."
+    },
+    "intfloat/multilingual-e5-small": {
+      "role": "previous_default_multilingual",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "base_model": null,
+      "korean_fine_tuned": false,
+      "license": "mit",
+      "dimension": 384,
+      "max_seq_length": 512,
+      "query_prefix": "query: ",
+      "passage_prefix": "passage: ",
+      "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small/blob/614241f622f53c4eeff9890bdc4f31cfecc418b3/README.md",
+      "note": "Previous default. Multilingual, not Korean-specific."
+    }
+  }
+}

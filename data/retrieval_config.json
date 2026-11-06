@@ -1,0 +1,41 @@
+{
+  "status": "tuned_on_development_set",
+  "selection_data": "data/dev_queries.json only; data/questions_100.json is never used for tuning",
+  "fallback": {
+    "strategy": "passage_only",
+    "alpha": 0.0,
+    "beta": 0.0
+  },
+  "settings": {
+    "baseline": {
+      "strategy": "passage_only",
+      "alpha": 0.0,
+      "beta": 0.0,
+      "note": "Kept as the unchanged lexical reference for comparison with earlier runs; tuning report in artifacts/evidence/tune_baseline.json"
+    },
+    "intfloat/multilingual-e5-small": {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.25,
+      "beta": 0.1,
+      "dev_top1": 63,
+      "dev_top3": 76,
+      "dev_total": 90
+    },
+    "dragonkue/multilingual-e5-small-ko-v2": {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.3,
+      "dev_top1": 66,
+      "dev_top3": 79,
+      "dev_total": 90
+    },
+    "nlpai-lab/KoE5": {
+      "strategy": "multiview_hybrid",
+      "alpha": 0.75,
+      "beta": 0.3,
+      "dev_top1": 67,
+      "dev_top3": 84,
+      "dev_total": 90
+    }
+  }
+}
