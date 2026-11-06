@@ -123,6 +123,10 @@ class Recommender:
         self.lexical_passages=self.lexical.fit_transform(passages+views)
         self.lexical_views=self.lexical_passages[len(passages):]
         self.lexical_passages=self.lexical_passages[:len(passages)]
+        if backend=='baseline':
+            # Reference scorer identical to earlier runs: vocabulary fitted on template passages only.
+            self.reference=TfidfVectorizer(analyzer='char',ngram_range=(2,5),sublinear_tf=True)
+            self.reference_passages=self.reference.fit_transform(passages)
         self.metadata.update(templates_sha256=digest(ROOT/'data/templates.json'),
             template_queries_sha256=digest(ROOT/'data/template_queries.json'),
             retrieval={'strategy':self.strategy,'alpha':self.alpha,'beta':self.beta,
@@ -139,7 +143,8 @@ class Recommender:
         lq=self.lexical.transform([query])
         lexical=np.maximum((lq@self.lexical_passages.T).toarray()[0],self._max_by_template((lq@self.lexical_views.T).toarray()[0]))
         if self.backend!='e5':
-            return {'passage':(lq@self.lexical_passages.T).toarray()[0],'views':self._max_by_template((lq@self.lexical_views.T).toarray()[0]),'lexical':lexical}
+            reference=(self.reference.transform([query])@self.reference_passages.T).toarray()[0]
+            return {'passage':reference,'views':self._max_by_template((lq@self.lexical_views.T).toarray()[0]),'lexical':lexical}
         vector=self.model.encode([self.query_prefix+query],normalize_embeddings=True,
             convert_to_numpy=True,show_progress_bar=False)[0]
         return {'passage':self.index@vector,'views':self._max_by_template(self.view_index@vector),'lexical':lexical}
