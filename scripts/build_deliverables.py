@@ -138,7 +138,7 @@ for category,count in Counter(q['category'] for q in questions).items():
 save(wb,'NLU_100건_평가데이터시트.xlsx')
 
 # Render authored methodology and report templates to editable DOCX; content remains Markdown in Git.
-for filename in ['시험방법서.md','평가기준_설문_협의절차.md','시험성적서_작성양식.md','근거검토_및_제출체크리스트.md','시험기관_확인요청서.md','실질의_수집_및_승인절차.md']:
+for filename in ['시험방법서.md','평가기준_설문_협의절차.md','시험성적서_작성양식.md','근거검토_및_제출체크리스트.md','시험기관_확인요청서.md','실질의_수집_및_승인절차.md','남은작업_실행로드맵.md']:
     source=ROOT/'docs'/filename
     if not source.exists():continue
     document=Document();document.styles['Normal'].font.name='맑은 고딕';document.styles['Normal'].font.size=Pt(10)

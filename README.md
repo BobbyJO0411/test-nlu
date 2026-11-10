@@ -101,9 +101,21 @@ python -m nlu.cli score --run-dir artifacts/runs/<run-id> --ratings <ratings.csv
 
 최종 판정 100건이 모두 확정되기 전에는 적합도를 산출하지 않습니다. 입력 파일의 이름만으로 서명·자격·실제 평가 행위를 인증하지 않습니다. submission_candidate는 전문가 승인, 기관 승인, 평가자 기록, 설문, 협의/다수결 기록이 모두 갖춰질 때만 true가 됩니다.
 
+## 템플릿 DB 전문가 검토
+
+템플릿 30개와 추가 대표 질문 120개는 아직 전문가 검토 전입니다. 검토 워크북을 만들어 실무자·변리사에게 전달하고, 받은 파일을 확인·반영합니다.
+```bash
+python scripts/make_template_review_workbook.py            # artifacts/review_package/템플릿DB_전문가검토.xlsx
+python scripts/apply_template_review.py --workbook <작성된 파일>          # 누락만 점검, 파일 변경 없음
+python scripts/apply_template_review.py --workbook <작성된 파일> --write  # 반영
+```
+수정(revise)이 있으면 원문을 바꾸고 revised_pending_reconfirm으로 표시합니다. 개발셋 튜닝 후 새 워크북으로 확인 검토를 다시 받아야 승인(approved)이 됩니다. 템플릿 삭제는 자동 반영하지 않습니다. score 결과의 template_items_approved가 true여야 submission_candidate가 true가 됩니다.
+
+남은 단계 전체 순서와 담당은 [docs/남은작업_실행로드맵.md](docs/남은작업_실행로드맵.md)에 있습니다.
+
 ## 실제 고객 질의와 승인
 
-[docs/실질의_수집_및_승인절차.md](docs/실질의_수집_및_승인절차.md) 참고.
+[docs/실질의_수집_및_승인절차.md](docs/실질의_수집_및_승인절차.md) 참고. 입력 양식은 artifacts/review_package/실질의_입력양식.csv(query 필수, category 권장)입니다.
 ```bash
 python scripts/prepare_real_queries.py --input <상담내역.csv> --output data/questions_holdout_candidate.json
 python scripts/apply_annotations.py --questions data/questions_holdout_candidate.json --annotations <주석.csv> --output data/questions_holdout.json

@@ -115,6 +115,9 @@ def score(args):
     approval=json.loads(approval_path.read_text(encoding='utf-8')) if approval_path.exists() else {}
     tq=manifest['engine'].get('template_queries_sha256')
     approved=approval.get('questions_sha256')==manifest['questions_sha256'] and approval.get('templates_sha256')==manifest['engine']['templates_sha256'] and (tq is None or approval.get('template_queries_sha256')==tq) and bool(approval.get('reviewer_name')) and bool(approval.get('approval_date')) and bool(approval.get('signed_record_reference')) and bool(approval.get('reviewer_role'))
+    current_templates=json.loads((ROOT/'data/templates.json').read_text(encoding='utf-8'))
+    current_views=json.loads((ROOT/'data/template_queries.json').read_text(encoding='utf-8'))
+    template_items_approved=digest(ROOT/'data/templates.json')==manifest['engine']['templates_sha256'] and all(t.get('approval_status')=='approved' for t in current_templates) and (tq is None or (digest(ROOT/'data/template_queries.json')==tq and current_views.get('status')=='approved'))
     identities=all(all(r.get(k,'').strip() for k in ['a_name','b_name','a_role','b_role','a_date','b_date','a_reason','b_reason']) and r['a_name']!=r['b_name'] and all(r.get(k) in ['1','2','3','4','5'] for k in ['a_1to5','b_1to5']) for r in rows)
     third=[r for r in rows if r.get('c')]
     if third:
@@ -139,11 +142,11 @@ def score(args):
         resolved_records=all(r['a']==r['b'] or all(r.get(k,'').strip() for k in ['resolution_date','resolution_participants']) for r in rows)
     agency_approved=bool(approval.get('agency_model_acceptance_reference')) and bool(approval.get('sampling_approval_reference')) and approval.get('model_id')==manifest['engine']['model_id'] and approval.get('approved_recommendation_mode')==manifest.get('recommendation_mode') and approval.get('approved_decision_rule',args.decision_rule)==args.decision_rule
     result.update(run_id=manifest['run_id'],ratings_sha256=digest(args.ratings),
-        expert_approval_record_present=approved,evaluator_records_complete=identities,
+        expert_approval_record_present=approved,template_items_approved=template_items_approved,evaluator_records_complete=identities,
         embedding_backend=actual_engine,recorded_manual_provenance=manual,
         questionnaire_complete=full_survey,questionnaire_statistics=survey,
         resolution_records_complete=resolved_records,agency_approval_record_present=agency_approved,
-        submission_candidate=result['status']=='complete' and approved and identities and actual_engine and manual and full_survey and resolved_records and agency_approved,
+        submission_candidate=result['status']=='complete' and approved and template_items_approved and identities and actual_engine and manual and full_survey and resolved_records and agency_approved,
         note='Computes recorded judgments only; cannot authenticate identities, credentials or actual review. Agency approval and signatures remain necessary.')
     write(Path(args.output),result);print(json.dumps(result,ensure_ascii=False))
 
