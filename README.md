@@ -1,8 +1,17 @@
 # 상표 NLU 응답 추천·시험 준비 패키지
 
-시험 항목 「NLU 기반 반자동 응답 추천 기능 적합도」를 준비하는 저장소입니다. 고객 질의를 한국어 E5 문장 임베딩으로 변환해 사전 등록된 응답 템플릿 30개 중 상위 3개를 뽑고, 1순위 템플릿 원문을 그대로 추천합니다. 평가자 파일 생성, 협의·다수결 집계, 적합도·합의율·ISO FCr-1-G 산출까지 포함합니다.
+시험 항목 「NLU 기반 반자동 응답 추천 기능 적합도」를 자체 시험으로 수행하는 저장소입니다. 고객 질의를 한국어 E5 문장 임베딩으로 변환해 사전 등록된 응답 템플릿 30개 중 상위 3개를 뽑고, 1순위 템플릿 원문을 그대로 추천합니다. 평가자 파일 생성, 협의·다수결 집계, 적합도·합의율·ISO FCr-1-G 산출까지 포함합니다.
 
-**현재 상태:** 실제 실무자·변리사의 평가와 승인, 시험기관 확인은 아직 없습니다. 질의 100건은 합성 초안이고 개발 중 이미 공개됐으므로 최종 성적에는 새로 수집·승인한 질의를 씁니다. 가상 A·B 결과는 규칙 기반 모의 예제이며 제출할 수 없습니다. 자세한 내용은 [docs/현재검증결과.md](docs/현재검증결과.md)에 있습니다.
+**자체 시험 요약:** `scripts/self_test.py`가 NLU 실행 → 평가자 파일 생성 → 불일치 정리 → 적합도·합의율·FCr-1-G 산출 → 시험결과서(합격 기준 적합도 80% 이상) 작성까지 처리합니다. 성공/실패 판정은 실제 평가자가 평가 파일에 입력한 값만 사용합니다. 절차는 [docs/시험방법서.md](docs/시험방법서.md)에 있습니다.
+
+## 자체 시험 실행
+
+```bash
+python scripts/self_test.py prepare                                   # 100건 실행, 평가자A/B.xlsx 생성
+python scripts/self_test.py resolve --run-dir artifacts/self_test/<실행ID> --a <A.xlsx> --b <B.xlsx>   # 불일치 목록(협의결과.csv)
+python scripts/self_test.py score   --run-dir artifacts/self_test/<실행ID> --a <A.xlsx> --b <B.xlsx>   # 집계, 시험결과서.docx, 합격/불합격
+```
+다수결은 resolve와 score에 `--decision-rule majority`를 붙입니다(제3평가자 C 파일 생성·사용).
 
 ## 구성
 
@@ -18,8 +27,9 @@
 | nlu/engine.py, api.py | 임베딩 검색 → top3 → 템플릿 원문 추천, REST API |
 | nlu/cli.py | run(100건 실행), tune(개발셋 튜닝), score(집계) |
 | nlu/metrics.py | 적합도, 합의율, 협의/다수결, κ, Wilson 구간, ISO X=1−A/B |
+| scripts/self_test.py | 자체 시험 전체 흐름(prepare, resolve, score)과 시험결과서 작성 |
 | scripts/ | 설치·실행, 모델 다운로드, 평가 파일 생성, 평가 수집, 제3평가자 파일, 실질의 익명화, 승인 해시 |
-| docs/ | 시험방법서, 평가 기준, 성적서 양식, 체크리스트, 시험기관 확인요청서, 실질의 수집 절차 |
+| docs/ | 시험방법서, 평가 기준·설문, 체크리스트, 실행 로드맵, 실질의 수집 절차 |
 | artifacts/review_package | 최종 개발 실행 기준 평가자 파일·총괄 시트·DOCX |
 | artifacts/evidence | 튜닝 결과, 100건 비교, 이전 로그 |
 
@@ -54,7 +64,7 @@ Invoke-RestMethod -Method Post -Uri http://127.0.0.1:8000/recommend -ContentType
 
 ## 모델
 
-기본 모델 nlpai-lab/KoE5는 intfloat/multilingual-e5-large를 한국어 데이터로 미세조정한 공개 모델(MIT, 1024차원)입니다. 시험계획의 ‘E5-Ko’ 요건 후보이며, 인정 여부는 시험기관이 확인해야 합니다. 다른 모델을 써야 하면 data/model_profiles.json에 고정 커밋을 추가하고 `--model-id`로 지정한 뒤 튜닝과 실행을 다시 합니다. 다운로드한 모든 파일은 Hugging Face 공개 해시와 대조하며, 오류가 나면 baseline으로 대체하지 않고 중단합니다.
+기본 모델 nlpai-lab/KoE5는 intfloat/multilingual-e5-large를 한국어 데이터로 미세조정한 공개 모델(MIT, 1024차원)입니다. 시험계획의 ‘E5-Ko 기반 문장 임베딩 모델’로 사용합니다. 다른 모델을 써야 하면 data/model_profiles.json에 고정 커밋을 추가하고 `--model-id`로 지정한 뒤 튜닝과 실행을 다시 합니다. 다운로드한 모든 파일은 Hugging Face 공개 해시와 대조하며, 오류가 나면 baseline으로 대체하지 않고 중단합니다.
 
 ```bash
 python scripts/download_model.py --model-id nlpai-lab/KoE5
@@ -68,7 +78,7 @@ python scripts/download_model.py --model-id nlpai-lab/KoE5
 python -m nlu.cli tune --model-id nlpai-lab/KoE5 --model-path ../nlu-models/nlpai-lab__KoE5 --report artifacts/evidence/tune_KoE5.json --write-config
 ```
 
-시험기관이 문자 점수 결합을 허용하지 않으면 `--beta 0`으로 임베딩만 사용합니다.
+임베딩 점수만 쓰려면 `--beta 0`으로 개발셋에서 다시 튜닝합니다.
 
 ## 100건 실행과 평가
 
@@ -97,7 +107,7 @@ python -m nlu.cli score --run-dir artifacts/runs/<run-id> --ratings <ratings.csv
 산출 지표:
 - 적합도(%) = 최종 성공 수 ÷ 100 × 100
 - 합의율(%) = 최초 A=B 일치 수 ÷ 100 × 100 (협의·다수결 전 기준)
-- ISO/IEC 25023 FCr-1-G: X = 1 − A/B (A = 최종 실패 수, B = 100). 적합도와 같은 값입니다. 표준 원문과의 대응은 시험기관 확인이 필요합니다.
+- ISO/IEC 25023 FCr-1-G: X = 1 − A/B (A = 최종 실패 수, B = 100). 적합도와 같은 값입니다.
 
 최종 판정 100건이 모두 확정되기 전에는 적합도를 산출하지 않습니다. 입력 파일의 이름만으로 서명·자격·실제 평가 행위를 인증하지 않습니다. submission_candidate는 전문가 승인, 기관 승인, 평가자 기록, 설문, 협의/다수결 기록이 모두 갖춰질 때만 true가 됩니다.
 
@@ -123,9 +133,6 @@ python scripts/approval_hashes.py --questions data/questions_holdout.json --outp
 ```
 자동 익명화는 1차 처리일 뿐이며 사람이 전부 다시 확인합니다. 승인서(data/approval.json)는 실제 서명 기록으로만 채우고 Git에 올리지 않습니다.
 
-## 시험기관 확인
-
-[docs/시험기관_확인요청서.md](docs/시험기관_확인요청서.md)에 모델 인정, 하이브리드 검색 허용, 표본 기준, 다수결/협의, ISO 표기, 합격 기준 등 14개 질문을 정리했습니다. 회신 문서 번호를 data/approval.json에 기록합니다.
 
 ## 옵션 LLM 후보 선택
 
