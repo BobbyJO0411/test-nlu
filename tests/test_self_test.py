@@ -15,11 +15,12 @@ def quiet(fn,*args):
     return code,out.getvalue()
 
 class SelfTestFlow(unittest.TestCase):
+    MODE='top1'
     def setUp(self):
         self.tmp=Path(tempfile.mkdtemp());self.addCleanup(shutil.rmtree,self.tmp)
         run=self.tmp/'run';run.mkdir()
         shutil.copyfile(PKG/'개발실행_manifest.json',run/'manifest.json');shutil.copyfile(PKG/'개발실행_recommendations.json',run/'recommendations.json')
-        quiet(self_test.main,'prepare','--run-dir',str(run),'--out',str(self.tmp/'out'))
+        quiet(self_test.main,'prepare','--run-dir',str(run),'--out',str(self.tmp/'out'),'--mode',self.MODE)
         self.dir=next((self.tmp/'out').iterdir())
         self.a=self.dir/'평가자A.xlsx';self.b=self.dir/'평가자B.xlsx'
 
@@ -37,7 +38,7 @@ class SelfTestFlow(unittest.TestCase):
     def test_workbooks_cover_100_cases(self):
         ws=load_workbook(self.a)['평가']
         self.assertEqual(ws.max_row-1,100)
-        self.assertTrue(all(c.value in (None,'') for c in list(ws.iter_rows(min_row=2))[0][4:]))
+        self.assertTrue(all(c.value in (None,'') for c in list(ws.iter_rows(min_row=2))[0][4:14]))
 
     def test_consensus_pass_and_metrics(self):
         self.fill(self.a,'평가자1',self.ids(10));self.fill(self.b,'평가자2',self.ids(12))  # Q011,Q012 disagree
@@ -92,5 +93,47 @@ class SelfTestFlow(unittest.TestCase):
         code,_=quiet(self_test.main,'score','--run-dir',str(self.dir),'--a',str(self.a),'--b',str(self.b),'--decision-rule','majority')
         r=json.loads((self.dir/'시험결과.json').read_text(encoding='utf-8'))
         self.assertEqual(code,0);self.assertEqual(r['suitability_pct'],100.0);self.assertEqual(r['agreement_pct'],97.0)
+
+class Top3Flow(SelfTestFlow):
+    """Same flow with the default semi-automatic mode: three candidates, evaluator picks one."""
+    MODE='top3'
+    def fill(self,path,name,fail_ids,pick='1'):
+        super().fill(path,name,fail_ids)
+        wb=load_workbook(path);ws=wb['평가']
+        for row in ws.iter_rows(min_row=2):
+            if row[0].value is None:continue
+            row[16].value=pick if row[9].value=='success' else '없음'
+        wb.save(path)
+
+    def test_majority_rule_uses_third_rater(self):
+        self.fill(self.a,'평가자1',set());self.fill(self.b,'평가자2',self.ids(3))
+        quiet(self_test.main,'resolve','--run-dir',str(self.dir),'--a',str(self.a),'--b',str(self.b),'--decision-rule','majority')
+        wb=load_workbook(self.dir/'평가자C.xlsx');ws=wb['평가']
+        self.assertEqual(ws.max_row-1,3)
+        for row in ws.iter_rows(min_row=2):
+            for cell in row[4:9]:cell.value=4
+            row[9].value='success';row[10].value='fixture';row[11].value='평가자3';row[12].value='fixture role';row[13].value='2026-11-17';row[16].value='2'
+        wb.save(self.dir/'평가자C.xlsx')
+        code,_=quiet(self_test.main,'score','--run-dir',str(self.dir),'--a',str(self.a),'--b',str(self.b),'--decision-rule','majority')
+        r=json.loads((self.dir/'시험결과.json').read_text(encoding='utf-8'))
+        self.assertEqual(code,0);self.assertEqual(r['suitability_pct'],100.0);self.assertEqual(r['selected_candidate_counts']['c'],{'2':3})
+
+    def test_workbook_shows_three_candidates(self):
+        ws=load_workbook(self.a)['평가']
+        self.assertEqual([c.value for c in ws[1]][-3:],['후보2_응답','후보3_응답','선택후보_1_2_3_없음'])
+        self.assertTrue(ws.cell(row=2,column=15).value and ws.cell(row=2,column=16).value)
+
+    def test_success_without_selected_candidate_is_rejected(self):
+        self.fill(self.a,'평가자1',set());self.fill(self.b,'평가자2',set())
+        wb=load_workbook(self.a);wb['평가'].cell(row=2,column=17).value=None;wb.save(self.a)
+        with self.assertRaises(SystemExit):quiet(self_test.main,'score','--run-dir',str(self.dir),'--a',str(self.a),'--b',str(self.b))
+
+    def test_mixed_modes_are_rejected(self):
+        self.fill(self.a,'평가자1',set());self.fill(self.b,'평가자2',set())
+        wb=load_workbook(self.b)
+        for row in wb['안내'].iter_rows(min_row=2):
+            if row[0].value=='평가방식':row[1].value='top1'
+        wb.save(self.b)
+        with self.assertRaises(SystemExit):quiet(self_test.main,'score','--run-dir',str(self.dir),'--a',str(self.a),'--b',str(self.b))
 
 if __name__=='__main__':unittest.main()

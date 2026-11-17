@@ -11,7 +11,7 @@ python scripts/self_test.py prepare                                   # 100건 �
 python scripts/self_test.py resolve --run-dir artifacts/self_test/<실행ID> --a <A.xlsx> --b <B.xlsx>   # 불일치 목록(협의결과.csv)
 python scripts/self_test.py score   --run-dir artifacts/self_test/<실행ID> --a <A.xlsx> --b <B.xlsx>   # 집계, 시험결과서.docx, 합격/불합격
 ```
-다수결은 resolve와 score에 `--decision-rule majority`를 붙입니다(제3평가자 C 파일 생성·사용).
+다수결은 resolve와 score에 `--decision-rule majority`를 붙입니다(제3평가자 C 파일 생성·사용). 기본 평가 방식은 반자동(후보 3개 중 평가자 선택)이며 `prepare --mode top1`로 1순위만 평가할 수 있습니다. PC에서 처음부터 따라 하는 순서는 [docs/실행가이드.md](docs/실행가이드.md)에 있습니다.
 
 ## 구성
 

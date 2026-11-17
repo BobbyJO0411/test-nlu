@@ -23,6 +23,8 @@ HEADERS=['case_id','query','recommended_answer','source_pages','문맥_1to5','�
 SURVEY=[('context','문맥 적합성'),('correctness','법적·사실 정확성'),('completeness','완결성'),('usability','실무 활용성'),('safety','안전성과 표현')]
 RESOLUTION_FIELDS=['case_id','query','recommended_answer','A판정','A근거','B판정','B근거','final','resolution_reason','resolution_date','participants']
 DEFAULT_THRESHOLD=80.0
+EXTRA_TOP3=['후보2_응답','후보3_응답','선택후보_1_2_3_없음']
+MODES={'top1':'1순위 추천 응답 1개를 평가','top3':'추천 응답 후보 상위 3개를 제시하고, 평가자가 그중 하나를 골라 평가(반자동)'}
 
 def load_json(path):
     return json.loads(Path(path).read_text(encoding='utf-8'))
@@ -41,25 +43,34 @@ def questions_of(manifest):
     return load_json(path)
 
 # ---------------------------------------------------------------- prepare
-def evaluator_workbook(path,role,manifest,results,questions,sources,threshold):
+def evaluator_workbook(path,role,manifest,results,questions,sources,threshold,mode='top1'):
     byid={r['case_id']:r for r in results}
     wb=Workbook();wb.remove(wb.active)
     info=wb.create_sheet('안내');info.append(['항목','값'])
     for row in [('자료구분',f'평가자 {role} 실평가 입력용'),('실행ID',manifest['run_id']),('추천파일SHA256',manifest['recommendations_sha256']),
         ('백엔드',manifest['engine']['backend']),('모델',f"{manifest['engine'].get('model_id')} @ {manifest['engine'].get('revision')}"),
-        ('평가 방법','각 고객 질의에 대해 자동 추천된 응답이 실제 문맥에 적합한지 평가합니다. 다른 평가자의 판정은 보지 않습니다.'),
-        ('성공(success)','추천 응답을 수정 없이 그대로 고객 답변으로 활용 가능한 경우'),
+        ('평가방식',mode),
+        ('평가 방법',('각 고객 질의에 대해 자동 추천된 응답(recommended_answer)이 실제 문맥에 적합한지 평가합니다.' if mode=='top1' else
+            '각 고객 질의에 대해 자동 추천된 응답 후보 3개(recommended_answer=후보1, 후보2_응답, 후보3_응답)를 보고, 실무자가 실제로 고를 응답 하나를 선택해 그 응답이 문맥에 적합한지 평가합니다. 선택한 후보 번호를 마지막 열에 입력합니다(쓸 수 있는 후보가 없으면 없음).')
+            +' 다른 평가자의 판정은 보지 않습니다.'),
+        ('성공(success)','추천 응답을 수정 없이 그대로 고객 답변으로 활용 가능한 경우'+('' if mode=='top1' else ' (선택한 후보 기준, 선택후보는 1·2·3 중 하나)')),
         ('실패(failure)','불완전하거나 수정이 필요한 경우(내용 추가·삭제·수정, 잘못된 절차·기한·금액, 핵심 누락, 근거 없는 단정)'),
         ('정량 설문','문맥·정확성·완결성·활용성·안전성을 1~5점으로 입력 (1 전혀 충족하지 않음 ~ 5 완전히 충족)'),
         ('필수 입력','판정, 설문 5개, 평가근거, 평가자성명, 역할자격(실무자/변리사/고객 상담자), 평가일시를 100건 모두 입력'),
         ('합격 기준',f'적합도(성공 응답 수 ÷ 100 × 100) {threshold:g}% 이상')]:info.append(row)
     style(info,{'A':16,'B':110})
-    ws=wb.create_sheet('평가');ws.append(HEADERS)
+    ws=wb.create_sheet('평가');ws.append(HEADERS+(EXTRA_TOP3 if mode=='top3' else []))
     for q in questions:
         r=byid[q['case_id']]
         pages=sorted({n for s in r['candidates'][0]['source_ids'] for n in sources[s]['pdf_pages']})
-        ws.append([q['case_id'],q['query'],r['recommended_answer'],','.join(map(str,pages))]+['']*10)
+        row=[q['case_id'],q['query'],r['recommended_answer'],','.join(map(str,pages))]+['']*10
+        if mode=='top3':row+=[r['candidates'][1]['answer'],r['candidates'][2]['answer'],'']
+        ws.append(row)
     n=len(questions)+1
+    if mode=='top3':
+        pick=DataValidation(type='list',formula1='"1,2,3,없음"');pick.showErrorMessage=True
+        ws.add_data_validation(pick);pick.add(f'Q2:Q{n}')
+        for col,w in {'O':70,'P':70,'Q':14}.items():ws.column_dimensions[col].width=w
     dv=DataValidation(type='list',formula1='"success,failure"');dv.error='success 또는 failure';dv.showErrorMessage=True
     ws.add_data_validation(dv);dv.add(f'J2:J{n}')
     sc=DataValidation(type='whole',operator='between',formula1=1,formula2=5);sc.showErrorMessage=True
@@ -87,9 +98,9 @@ def prepare(a):
     out=Path(a.out)/manifest['run_id'];out.mkdir(parents=True,exist_ok=True)
     for f in ['manifest.json','recommendations.json']:shutil.copyfile(run/f,out/f)
     sources=load_json(ROOT/'data/source_excerpts.json')
-    for role in ['A','B']:evaluator_workbook(out/f'평가자{role}.xlsx',role,manifest,results,questions,sources,a.threshold)
+    for role in ['A','B']:evaluator_workbook(out/f'평가자{role}.xlsx',role,manifest,results,questions,sources,a.threshold,a.mode)
     lat=[r['latency_ms'] for r in results]
-    summary={'run_id':manifest['run_id'],'folder':str(out),'model':manifest['engine'].get('model_id'),
+    summary={'run_id':manifest['run_id'],'folder':str(out),'evaluation_mode':a.mode,'model':manifest['engine'].get('model_id'),
         'git_commit':manifest.get('git_commit'),'git_worktree_clean':manifest.get('git_worktree_clean'),
         'latency_ms_median':round(statistics.median(lat),1),'latency_ms_p95':round(sorted(lat)[94],1),
         'retrieval_diagnostic':manifest.get('retrieval_diagnostic'),
@@ -98,6 +109,11 @@ def prepare(a):
     print(json.dumps(summary,ensure_ascii=False,indent=2))
 
 # ---------------------------------------------------------------- resolve
+def mode_of(path):
+    wb=load_workbook(path,read_only=True,data_only=True)
+    info={r[0]:r[1] for r in wb['안내'].iter_rows(min_row=2,values_only=True)}
+    return info.get('평가방식') or 'top1'
+
 def judgments(path):
     wb=load_workbook(path,data_only=True)
     return {row[0]:row for row in list(wb['평가'].values)[1:] if row and row[0]}
@@ -109,9 +125,12 @@ def resolve(a):
     if missing:raise SystemExit('A and B must finish all cases first. Missing: '+', '.join(missing[:20]))
     diff=[cid for cid in ra if ra[cid][9]!=rb[cid][9]]
     agree=len(ra)-len(diff)
+    mode=mode_of(a.a)
+    if mode_of(a.b)!=mode:raise SystemExit('A and B workbooks use different evaluation modes')
     if a.decision_rule=='majority':
         out=run/'평가자C.xlsx'
-        subprocess.run([sys.executable,str(ROOT/'scripts/make_tiebreak_workbook.py'),'--run-dir',str(run),'--a',a.a,'--b',a.b,'--output',str(out)],check=True)
+        results=load_json(run/'recommendations.json');questions=[q for q in questions_of(manifest) if q['case_id'] in set(diff)]
+        evaluator_workbook(out,'C (A·B 불일치 건만, 블라인드)',manifest,results,questions,load_json(ROOT/'data/source_excerpts.json'),DEFAULT_THRESHOLD,mode)
     else:
         out=run/'협의결과.csv'
         with out.open('w',encoding='utf-8-sig',newline='') as f:
@@ -149,6 +168,21 @@ def score(a):
     proc=subprocess.run(cmd,capture_output=True,text=True,encoding='utf-8')
     if proc.returncode:sys.stderr.write(proc.stderr);raise SystemExit('평가 파일 확인 실패: '+(proc.stderr.strip().splitlines() or ['?'])[-1])
     with ratings.open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
+    mode=mode_of(a.a)
+    books={'a':a.a,'b':a.b}
+    if a.decision_rule=='majority':books['c']=a.c or str(run/'평가자C.xlsx')
+    picks={}
+    for who,path in books.items():
+        if mode_of(path)!=mode:raise SystemExit('평가 파일의 평가방식이 서로 다릅니다')
+        for cid,row in judgments(path).items():
+            if mode!='top3':continue
+            r=rby[cid]
+            if len(row)<17 or row[14]!=r['candidates'][1]['answer'] or row[15]!=r['candidates'][2]['answer']:
+                raise SystemExit(f'{who.upper()} {cid}: 후보 응답이 실행 결과와 다릅니다')
+            pick=str(row[16]).strip() if row[16] is not None else ''
+            if row[9]=='success' and pick not in ('1','2','3'):raise SystemExit(f'{who.upper()} {cid}: 성공이면 선택후보(1/2/3)를 입력해야 합니다')
+            if row[9]=='failure' and pick not in ('없음','1','2','3'):raise SystemExit(f'{who.upper()} {cid}: 선택후보를 입력해야 합니다(쓸 수 있는 후보가 없으면 없음)')
+            picks.setdefault(who,{})[cid]=pick
     result=summarize(rows,[q['case_id'] for q in questions],a.decision_rule)
     finals={}
     for r in rows:
@@ -166,7 +200,8 @@ def score(a):
             and approval.get('templates_sha256')==manifest['engine'].get('templates_sha256'),
         'reviewer':approval.get('reviewer_name',''),'role':approval.get('reviewer_role',''),'date':approval.get('approval_date','')}
     report={'test_item':'NLU 기반 반자동 응답 추천 기능 적합도','created_utc':datetime.now(timezone.utc).isoformat(),
-        'run_id':manifest['run_id'],'decision_rule':a.decision_rule,'threshold_pct':a.threshold,'verdict':verdict,
+        'run_id':manifest['run_id'],'evaluation_mode':mode,'evaluation_mode_text':MODES[mode],
+        'selected_candidate_counts':{who:dict(sorted(Counter(v.values()).items())) for who,v in picks.items()},'decision_rule':a.decision_rule,'threshold_pct':a.threshold,'verdict':verdict,
         'suitability_pct':result['suitability_pct'],'agreement_pct':result['agreement_pct'],
         'success_count':result['success_count'],'failure_count':result['failure_count'],
         'initial_agreements':result['initial_agreements'],'initial_disagreements':result['initial_disagreements'],
@@ -249,6 +284,7 @@ def write_report(path,report,manifest):
         d.add_paragraph(line,style='List Bullet')
     d.add_heading('4. 측정 방법',1)
     for line in ['실사용 환경을 반영한 고객 질의 100건을 기반으로 자동 추천된 응답 결과 수집',
+        '평가 방식: '+report['evaluation_mode_text'],
         '각 응답 결과에 대해 실무자 또는 평가자(변리사 또는 고객 상담자)가 추천 응답이 실제로 문맥에 적합한지 평가',
         '적절한 응답으로 수정 없이 활용 가능한 경우 ‘성공’, 불완전하거나 수정이 필요한 경우 ‘실패’로 간주하여 적합도(%) 산출']:
         d.add_paragraph(line,style='List Bullet')
@@ -270,6 +306,9 @@ def write_report(path,report,manifest):
     d.add_heading('7. 평가자',1)
     rows=[[p.upper(),n,r] for p,v in report['evaluators'].items() for n,r in v]
     table(rows or [['-','-','-']],header=['구분','성명','역할·자격'])
+    if report['selected_candidate_counts']:
+        d.add_heading('7-1. 평가자가 선택한 후보 순위',1)
+        table([[w.upper()]+[report['selected_candidate_counts'][w].get(k,0) for k in ['1','2','3','없음']] for w in report['selected_candidate_counts']],header=['평가자','1순위','2순위','3순위','없음'])
     d.add_heading('8. 판정 일치와 불일치 처리',1)
     table([['최초 일치',report['initial_agreements']],['최초 불일치',report['initial_disagreements']],
         ['협의로 확정',report['resolved_by_consensus']],['다수결로 확정',report['resolved_by_majority']],
@@ -295,7 +334,7 @@ def main(argv=None):
     pr=sub.add_parser('prepare');pr.add_argument('--model-id',default=DEFAULT_MODEL);pr.add_argument('--model-path')
     pr.add_argument('--questions',default='data/questions_100.json');pr.add_argument('--dataset-type',default='practitioner_reviewed_test_set')
     pr.add_argument('--run-dir',help='use an existing artifacts/runs/<id> instead of running again')
-    pr.add_argument('--out',default=str(OUT_ROOT));pr.add_argument('--threshold',type=float,default=DEFAULT_THRESHOLD)
+    pr.add_argument('--out',default=str(OUT_ROOT));pr.add_argument('--mode',choices=list(MODES),default='top3',help='top3: 후보 3개 중 실무자 선택(반자동, 기본) / top1: 1순위만');pr.add_argument('--threshold',type=float,default=DEFAULT_THRESHOLD)
     rs=sub.add_parser('resolve');rs.add_argument('--run-dir',required=True);rs.add_argument('--a',required=True);rs.add_argument('--b',required=True)
     rs.add_argument('--decision-rule',choices=['consensus','majority'],default='consensus')
     sc=sub.add_parser('score');sc.add_argument('--run-dir',required=True);sc.add_argument('--a',required=True);sc.add_argument('--b',required=True)
